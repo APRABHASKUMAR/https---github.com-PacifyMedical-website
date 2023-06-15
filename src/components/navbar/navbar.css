@@ -1,0 +1,31 @@
+.pacify_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    padding-left: 3rem;
+    /* box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.2) */
+  }
+  .pacify_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo{
+    width: 90px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .pacify_navbar-links_container {
+    display: flex;
+  }
+
+  .pacify_navbar-links_container p  {
+    margin-right: 4rem;
+    font-family: var(--font-family);
+    font-size: 0.7 rem;
+    text-align: center;
+  }

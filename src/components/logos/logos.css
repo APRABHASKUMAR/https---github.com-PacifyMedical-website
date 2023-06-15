@@ -1,0 +1,133 @@
+.title{
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+    text-decoration-color: #FCB040;
+}
+  .development-partners {
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    margin-bottom: 1rem;
+    
+  }
+  .development-partners-parent {
+    text-align: center;
+  }
+ 
+  .betic {
+    width: 7rem;
+    margin-left: 0;
+  }
+
+  .coep {
+    width: 9rem;
+    margin-right: 0;
+  }
+  .awards {
+    letter-spacing: -0.01em;
+    line-height: 150%;
+  }
+  .birac-1-icon,
+  .meity-logo-1 {
+    top: 5.81rem;
+    width: 12rem;
+    margin-top: 2.81rem;
+  }
+
+  .awards-parent {
+
+    text-align: center;
+  }
+  .supported-by {
+  margin-bottom: 3rem;
+  text-align: center;
+  }
+  .venture-center-1, .sine-1-icon {
+    width: 10rem;
+  }
+  .ciie-iima-logo-1, .startup-oasis-logo-1 {
+   width: 15rem;
+  }
+  .supported-by-parent {
+
+    text-align: center;
+  }
+  .supported-by-parent > img {
+
+    margin: 0 3rem;
+  }
+  .villgro-logo-icon {
+    width: 10rem;
+  }
+  .masschallenge-logo-finalist-ba {
+    width: 10rem;
+  }
+  .nsrcel-logo-icon {
+    width: 10rem;
+  }
+  .gdc-iit-madras-logo {
+    width: 10rem;
+  }
+  .the-gain-jpeg {
+    width: 10rem;
+  }
+  .villgro-logo-parent {
+    width: 10rem;
+  }
+  .aimprime-logo-icon {
+    width: 10rem;
+  }
+  
+  .row-initial {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+  .acnd-nexus-final-logo {
+    width: 7rem;
+  }
+  .swissnex-logo-1 {
+    width: 10rem;
+  }
+  .idea2-icon,
+  .m2d2-logo-icon,
+  .swissnex-logo-1 {
+    width: 10rem;
+  }
+  .m2d2-logo-icon {
+    width: 10rem;
+  }
+  .idea2-icon {
+    width: 5rem;
+  }
+  .aimprime-logo-parent {
+    text-align: center;
+
+  }
+  .aimprime-logo-parent > img {
+    text-align: center;
+    margin: 2rem 2.5rem 5rem 2.5rem;
+
+    
+
+  }
+  .accelerated-by {
+    letter-spacing: -0.01em;
+    line-height: 150%;
+  }
+  .stanford-seed-spark-logo {
+    width: 10rem;
+ 
+  }
+
+  .standord {
+    text-align: center;
+  }
+  .group-parent1 {
+    text-align: center;
+  }
+  .group-parent1 > img {
+    text-align: center;
+    margin: 0 2.5rem;
+  }

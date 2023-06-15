@@ -1,0 +1,56 @@
+.vertical,.horizontal {
+    margin: 0;
+}
+.vertical {
+    height: 25rem;
+}
+
+.horizontal {
+    width: 23rem;
+}
+.image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.sub-heading {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 1rem;
+line-height: 150%;
+color: #000000;
+}
+
+.description {
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1rem;
+line-height: 120%;
+color: #000000;
+}
+
+.benefits-text {
+    width:30rem;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.image-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.image-row-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}

@@ -1,0 +1,49 @@
+.profile-row {
+  display: flex;
+  padding: 2rem 7rem 7rem 7rem;
+}
+
+.profile > img {
+  width: 15rem;
+  margin: 0 0 2rem 0rem;
+}
+
+.profile {
+  margin: 0 5rem;
+}
+
+.name {
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+
+.position {
+  font-family: var(--font-family);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.field {
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+}
+
+.biodata {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  line-height: 0.9;
+}
+
+.expert-row-1,
+.expert-row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.expert-row-2 {
+  padding: 4rem 4rem 0 4rem;
+}
+.expert-row-1 {
+    padding-top: 2.5rem;
+  }
+  

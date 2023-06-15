@@ -1,0 +1,115 @@
+.career-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.4rem;
+    margin-left: 6rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.banner {
+    display: inline-block;
+    background: linear-gradient(90deg, #FF9900 65%,transparent 50%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    position: relative;
+  }
+  
+  .banner-text {
+    font-size: 2.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: 18rem;
+    z-index: 1;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .banner-image {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    z-index: -1; /* Place the image underneath the text */
+  }
+  .goals {
+    margin: 2rem 10rem;
+    font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+font-size: var(--font-family);
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 7rem;
+  } 
+
+  .career-heading {
+    font-size: 2.0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2rem;
+    letter-spacing: 0.01em;
+  }
+  
+  .image-row-4 {
+    display: flex;
+  }
+  
+  .random {
+    height: 20rem;
+    margin-left: 15rem;
+  }
+
+  .career-sub {
+    color: #858585;
+    font-weight: 600;
+    font-family: var(--font-family);
+    margin: 0.8rem 0;
+    line-height: 150%;
+
+  }
+  .fit-text {
+    margin-left: 15rem;
+    margin-bottom: 3rem;
+  }
+  
+  .part-2 {
+    color: white;
+    background: black;
+    padding-top: 0.6rem;
+    padding-bottom: 0.1rem;
+  }
+  .open {
+    margin-left: 8rem;
+  }
+  .career-content {
+    font-size: 1REM;
+    font-weight: 400;
+    font-family: var(--font-family);
+  }
+
+  .engineering {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    font-size: 1.4rem;
+  }
+
+  .hammer {
+    margin: 0 0.7rem;
+    width: 1.1rem;
+   
+  }
+
+  .list-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+  }
+
+  .benefits-text-1 {
+    margin: 2rem 4rem 0rem 5rem;
+  }

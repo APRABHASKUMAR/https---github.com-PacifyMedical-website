@@ -1,0 +1,60 @@
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 42.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+  }
+  .hero_title {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .group-div {
+    display: flex;
+    padding: 90px 10px;
+    justify-content: center;
+  }
+  .easy,.hospital,.surgery {
+    width: 280px;
+    height: 4rem;
+    text-align: center;
+     margin-right: 5rem;
+     font-family: var(--font-family);
+  }
+  .surgery > h1 {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+       
+  }
+  .easy > h1 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+   
+}.hospital > h1 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+   
+}
+  .reducing{
+    color: #FF9900;
+  }
+  .know-more-parent {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    
+  }
+  .icon {
+    width: 0.8rem;
+    margin-left: 0.5rem;
+
+  }

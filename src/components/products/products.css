@@ -1,0 +1,174 @@
+.intro-box {
+    padding: 3rem 4rem;
+    border: dashed 2px black;
+    margin-bottom: 3rem;
+}
+
+.product-content {
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 175%;
+/* or 42px */
+
+letter-spacing: 0.019em;
+}
+
+.product-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.image-row-3 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.horizontal {
+    width: 24rem;
+    margin: 0;
+    padding: 0;
+}
+
+.product-page-margin {
+    margin: 1rem 10rem;
+}
+
+.gun {
+    width: 18rem;
+}
+
+.brochure {
+    
+background: #000000;
+border-radius: 8px;
+width: 10rem;
+height: 3.5rem;
+color: white ;
+padding: 1rem 0;
+margin: 0 auto;
+}
+
+.download-icon {
+    width: 0.9rem;
+    margin: 0;
+    
+}
+
+.button-content {
+    display: flex;
+    color: white;
+    margin: 0 1rem;
+    justify-content: space-between;
+   
+}
+
+.button-text {
+    font-family: var(--font-family);
+}
+
+.button-div {
+    text-align: center;
+}
+
+#tech {
+    font-size: 2.1rem;
+    margin: 3rem 0;
+}
+.start,.end {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4REM;
+    margin-top: 4REM;
+   
+}
+
+.mid {
+    text-align: center  ;
+}
+
+.bio-medical,.spray-tech,.human,.tissue {
+    border: dashed 2px black;
+    padding: 1rem 2rem;
+}
+
+.science {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #FCB040;
+border-radius: 8px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.spray-tech {
+    margin-top: 2rem;
+}
+
+.human {
+    margin-top: 4rem;
+}
+
+.tissue {
+    height: 3.8rem;
+}
+.bio-medical {
+    height: 3.8rem
+}
+.arrow-row-1 {
+    display: flex;
+}
+
+.arrow-1 {
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        width: 10%;
+        transform: rotate(45deg);
+        transform-origin: right center;
+        background: #FCB040;
+        margin-left: 23rem;
+     
+    
+}
+
+.arrow-2 {
+    display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        width: 7%;
+        transform: rotate(-45deg);
+        transform-origin: left center;
+        background: #FCB040;
+        margin-left: 13rem;
+}
+.arrow-3 {
+    display: flex;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        width: 12%;
+        transform: rotate(-45deg);
+        transform-origin: right center;
+        background: #FCB040;
+        margin-left: 19rem;
+}
+.arrow-4 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    width: 7%;
+    transform: rotate(45deg);
+    transform-origin: left center;
+    background: #FCB040;
+    margin-left: 42rem;
+ 
+
+}
+.flowchart-heading {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}

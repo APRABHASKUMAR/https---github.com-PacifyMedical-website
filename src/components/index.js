@@ -1,0 +1,12 @@
+export { default as Endcard} from './endcard/Endcard';
+export { default as Gallery } from './gallery/Gallery' ;
+export { default as Hero } from './hero/Hero';
+export { default as Logos } from './logos/Logos';
+export { default as Media } from './media/Media';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Advantages } from './advantages/Advantages';
+export { default as Benenfits } from './benefits/Benefits';
+export { default as About } from './about/About';   
+export { default as Meet_team } from './team/Meet-team'; 
+export { default as Product } from './products/Products'; 
+export { default as Career } from './career/Career'; 

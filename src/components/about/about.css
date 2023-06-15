@@ -1,0 +1,33 @@
+
+.scenary {
+    margin: 0;
+    padding: 0;
+    width: 40rem;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #FF9900 63%, #FFFFFF 37%);
+    padding-top: 3.5rem;
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 1.8rem;
+    padding: 1.7rem 0rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-content {
+    padding: 3rem 14.2rem;
+}
+
+.speech {
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 1.08rem;
+line-height: 146%;
+/* or 146% */
+
+letter-spacing: 0.03em;
+}
