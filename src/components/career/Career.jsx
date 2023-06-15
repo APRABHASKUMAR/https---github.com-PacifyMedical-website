@@ -139,7 +139,32 @@ const Career = () => {
                 Internship
                 </h5>
             </div>
-            <div className="location-1"></div>
+            <div className="location-1">
+                <div className="location-button">
+                    Mumbai
+                </div>
+                <h5 className="date-time">
+                    December 13, 2021 6 PM
+                </h5>
+
+            </div>
+        </div>
+        <div className="posting-1">
+            <div className="list-1">
+                <img src={hammer} alt="" className="hammer"  />
+                <h5 id="position">
+                Internship
+                </h5>
+            </div>
+            <div className="location-1">
+                <div className="location-button">
+                    Mumbai
+                </div>
+                <h5 className="date-time">
+                    December 13, 2021 6 PM
+                </h5>
+
+            </div>
         </div>
     </div>
   );

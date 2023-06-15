@@ -100,6 +100,7 @@ margin-bottom: 7rem;
   .hammer {
     margin: 0 0.7rem;
     width: 1.1rem;
+    padding: 0;
    
   }
 
@@ -108,8 +109,27 @@ margin-bottom: 7rem;
     align-items: center;
     margin-left: 5rem;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .benefits-text-1 {
     margin: 2rem 4rem 0rem 5rem;
   }
+
+  .location-button {
+    display: inline-block;
+    background: #fcb040;
+    padding: 0.4rem 0.8rem ;
+    margin-right: 1rem;
+
+  }
+.posting-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.location-1 {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
