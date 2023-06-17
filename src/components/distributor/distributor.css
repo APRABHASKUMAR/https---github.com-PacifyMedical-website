@@ -1,0 +1,36 @@
+.dist {
+    width: 30rem;
+    margin: 0;
+}
+
+.gradient {
+    text-align: center;
+}
+
+.dist-content {
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 175%;
+margin: 2rem 0rem;
+}
+
+.info {
+margin: 0 8rem;
+}
+
+#address-1 {
+    width: 100%;
+    margin-right: 4rem;
+}
+#address-2 {
+    width: 100%;
+}
+
+.dist-headings {
+    margin-top: 2rem;
+}
+.Distributor {
+    margin-bottom: 2rem;
+}

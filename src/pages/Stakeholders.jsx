@@ -5,7 +5,6 @@ import "./../App.css";
 const Stakeholders = () => {
   return (
     <div>
-      <Navbar />
       <div className="page">
         <Advantages />
         <Benenfits />

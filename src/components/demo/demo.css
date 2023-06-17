@@ -1,0 +1,70 @@
+.schedule {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.7rem 1.6rem;
+    width: 100%;
+    margin-right: 4rem;
+    gap: 1rem;
+    border: none;
+    background: #F1F1F1;
+    border-radius: 0.4rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 28px;
+    
+    color: #4D4D4D;
+}
+
+.schedule:focus {
+    border: 2px solid #FF9900;
+    border-radius: 2px; 
+    outline:none;
+    border-radius: 0.4rem;
+
+    }
+    .schedule::placeholder {
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 0.9rem;
+line-height: 28px;
+
+color: #4D4D4D;
+    }
+
+    .form-row-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        align-items: stretch;
+    }
+    .form-row-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        align-items: center;
+    }
+
+    #organisation {
+        height: 9rem;
+        resize: none;
+    }
+    #message {
+        width: 51rem;
+        resize: none;
+    }
+
+    #submit-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem auto;
+    }
+
+    #email {
+        width: 35rem;
+        height: 3rem;
+    }

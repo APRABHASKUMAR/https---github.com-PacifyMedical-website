@@ -10,3 +10,6 @@ export { default as About } from './about/About';
 export { default as Meet_team } from './team/Meet-team'; 
 export { default as Product } from './products/Products'; 
 export { default as Career } from './career/Career'; 
+export { default as Demo } from './demo/Demo'; 
+export { default as Write } from './write-to-us/Write-to-us'; 
+export { default as Distributor } from './distributor/Distributor'; 

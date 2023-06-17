@@ -1,15 +1,15 @@
 .profile-row {
   display: flex;
-  padding: 2rem 7rem 7rem 7rem;
+  padding: 2rem 0rem 5% 0rem;
 }
 
 .profile > img {
-  width: 15rem;
+  width: 100%;
   margin: 0 0 2rem 0rem;
 }
 
 .profile {
-  margin: 0 5rem;
+  margin: 0 5%;
 }
 
 .name {
@@ -32,7 +32,8 @@
   display: flex;
   flex-direction: column;
   text-align: start;
-  line-height: 0.9;
+  line-height: 1;
+  margin-right: 4%;
 }
 
 .expert-row-1,
@@ -41,9 +42,25 @@
   justify-content: space-between;
 }
 .expert-row-2 {
-  padding: 4rem 4rem 0 4rem;
+  padding: 4rem 15% 0 15%;
 }
 .expert-row-1 {
     padding-top: 2.5rem;
   }
   
+  @media screen and (max-width: 790px) {
+ 
+    .profile-row {
+      display: block;
+    }
+    .expert-row-1,
+.expert-row-2 {
+  display: block;
+  padding: 0 0 0 0 ;
+}
+.field {
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+  }

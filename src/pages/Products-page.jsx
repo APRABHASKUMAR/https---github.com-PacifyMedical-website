@@ -4,8 +4,6 @@ import "./../App.css";
 const Products_page = () => {
   return (
     <div>
-      <Navbar />
-
      <Product />
       
     </div>

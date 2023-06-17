@@ -5,7 +5,6 @@ import "./../App.css";
 const Team = () => {
   return (
     <div>
-      <Navbar />
       <div className="page">
        <Meet_team />
       </div>
