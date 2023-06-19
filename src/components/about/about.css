@@ -31,3 +31,15 @@ line-height: 146%;
 
 letter-spacing: 0.03em;
 }
+@media screen and (max-width: 790px) {
+    .speech {
+        font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 146%;
+    /* or 146% */
+    
+    letter-spacing: 0.03em;
+    }
+}
