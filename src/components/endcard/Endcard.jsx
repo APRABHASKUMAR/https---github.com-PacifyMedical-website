@@ -9,7 +9,7 @@ import twitter  from "../../assets/twitter.svg";
 
 const Endcard = () => {
   return (
-    <div>
+    <div className="endcard">
       <div className="title">
         <b className="what-people-say">What people say about us</b>
       </div>

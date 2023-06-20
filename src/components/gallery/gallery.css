@@ -1,12 +1,22 @@
 .gallery {
-    text-align: center;
-    
+  text-align: center;
 }
 .gallery-text {
+  font-size: 1.5rem;
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  text-decoration: underline;
+  text-decoration-color: #fcb040;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 990px) {
+  .gallery-text {
     font-size: 1.5rem;
-    margin-left: 8rem;
-    margin-bottom: 5rem;
+    text-align: start;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
     text-decoration: underline;
-    text-decoration-color: #FCB040;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-color: #fcb040;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
 }

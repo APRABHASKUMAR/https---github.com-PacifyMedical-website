@@ -12,27 +12,27 @@ const Hero = () => {
       </h2>
       <div className="group-div">
         <div className="easy">
-        <h1 className="easy-to-use">Easy to Use</h1>
-          <div className="the-solution-is-container">
-            <span>{`The solution is designed to be intuitive to learn and easy to operate `}</span>
-            <span className="reducing">plug and play</span>
-            <span> type system.</span>
+        <h1 className="group-div-heading">Easy to Use</h1>
+          <div className="group-div-content">
+            The solution is designed to be intuitive to learn and easy to operate 
+            <span className="reducing"> plug and play </span>
+             type system.
           </div>
         </div>
         <div className="surgery">
-        <h1 className="reduced-surgery-time">Reduced surgery time</h1>
-          <div className="structure-approach-to-container">
-            <span>{`Structure approach to `}</span>
-            <span className="reducing">reduce</span>
-            <span> the procedure time.</span>
+        <h1 className="group-div-heading">Reduced surgery time</h1>
+          <div className="group-div-content">
+            Structure approach to 
+            <span className="reducing"> reduce </span>
+            the procedure time.
           </div>
         </div>
         <div className="hospital">
-        <h1 className="reduce-hospital-stay">Reduce hospital stay</h1>
-            <div className="the-solution-aid-container">
-              <span>{`The solution aid in healing thereby `}</span>
-              <span className="reducing">reducing</span>
-              <span> the hospital stay</span>
+        <h1 className="group-div-heading">Reduce hospital stay</h1>
+            <div className="group-div-content">
+              The solution aid in healing thereby 
+              <span className="reducing"> reducing </span>
+               the hospital stay
             </div>
           </div>
       </div>

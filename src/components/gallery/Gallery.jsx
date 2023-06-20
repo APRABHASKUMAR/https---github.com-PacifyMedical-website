@@ -6,8 +6,7 @@ const Gallery = () => {
     'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
     'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
     'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
-    'https://cdn.discordapp.com/attachments/907274042371891201/1088593825011871774/Rectangle_39688_1.png',
-    'https://cdn.discordapp.com/attachments/907274042371891201/1088593825011871774/Rectangle_39688_1.png'
+    'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
   ];
 
   return (

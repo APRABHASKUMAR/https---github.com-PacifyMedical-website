@@ -21,9 +21,9 @@ import gain from "../../logos/gain.svg";
 import stan from "../../logos/stan.svg";
 const Logos = () => {
   return (
-    <div>
+    <div className="logos">
       <div className="supported-by-global-organizati-parent">
-        <b className="title">Supported by global organization</b>
+        <b className="logo-title">Supported by global organization</b>
         <div className="group-child4" />
       </div>
       <div className="row-initial">
@@ -40,15 +40,17 @@ const Logos = () => {
         <img className="meity-logo-1" alt="" src={meity} />
       </div>
       </div>
-      <div className="supported-by-parent">
+      
         <div className="supported-by">Supported by</div>
-        <img className="venture-center-1" alt="" src={venture} />
-        <img className="startup-oasis-logo-1" alt="" src={oasis} />
-        <img className="sine-1-icon" alt="" src={sine} />
-        <img className="ciie-iima-logo-1" alt="" src={ciie} />
+        <div className="supported-by-parent">
+        <img className="support-logo-1" alt="" src={venture} />
+        <img className="support-logo-2" alt="" src={oasis} />
+        <img className="support-logo-3" alt="" src={sine} />
+        <img className="support-logo-4" alt="" src={ciie} />
       </div>
-      <div className="group-parent1">
+     
         <div className="accelerated-by">Accelerated by</div>
+        <div className="group-parent-1">
           <img className="villgro-logo-icon" alt="" src={vill} />
           <img className="masschallenge-logo-finalist-ba" alt="" src={mass} />
           <img className="nsrcel-logo-icon" alt="" src={nsrcel} />
