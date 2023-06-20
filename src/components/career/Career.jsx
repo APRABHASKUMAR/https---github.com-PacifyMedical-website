@@ -1,10 +1,19 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./career.css";
 import random from "../../assets/random.svg";
 import raise_hand from "../../assets/raise-hand.svg";
 import banner from "../../assets/banner-image.svg";
 import hammer from "../../assets/hammer.svg";
+
 const Career = () => {
+  const [matches, setMatches] = useState(
+    window.matchMedia("(min-width: 800px)").matches
+  );
+  useEffect(() => {
+    window
+    .matchMedia("(min-width: 768px)")
+    .addEventListener('change', e => setMatches( e.matches ));
+  }, []);
   return (
     <div>
       <div className="career-title">Careers</div>
@@ -61,6 +70,7 @@ const Career = () => {
           
 
           <div className="fit-text">
+          {!matches && <img className="random" alt="" src={random} />}
             <h5 className = "career-heading">
             You are a 
               <span className="stake"> true fit </span>
@@ -92,7 +102,7 @@ const Career = () => {
             </h5>
 
           </div>
-          <img className="random" alt="" src={random} />
+          {matches && <img className="random" alt="" src={random} />}
         </div>
         <div className="image-row-4">
             <img className="random" alt="" src={random} />

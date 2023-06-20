@@ -9,7 +9,7 @@ import twitter  from "../../assets/twitter.svg";
 
 const Endcard = () => {
   return (
-    <div className="endcard">
+    <div className="endcard-1">
       <div className="title">
         <b className="what-people-say">What people say about us</b>
       </div>
@@ -45,7 +45,7 @@ const Endcard = () => {
 
       <div className="endcard">
         <div className="initial">
-          <img src={logo} alt="pacify" className="logo" />
+          <img src={logo} alt="pacify" className="logo-end" />
           <h6 className="text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum, eu
             risus nulla neque id. Et massa diam, odio nullam tellus. Accumsan

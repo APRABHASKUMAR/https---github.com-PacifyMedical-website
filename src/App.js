@@ -11,7 +11,7 @@ import Demo_page from "./pages/demo-page";
 import Write_page from "./pages/write-page";
 import Distributor_page from "./pages/Distributor-page";
 import Home from "./pages/home";
-const App = () => {
+ const App = () => {
   return (
     <div>
       {/* <Distributor_page /> */}

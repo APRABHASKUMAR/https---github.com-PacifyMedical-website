@@ -14,9 +14,9 @@
     align-items: center;
   }
   .logo{
-    width: 10%;
+    width: 70%;
     height: 50%;
-    padding: 0;
+    margin: 0;
   }
 
   .pacify_navbar-links_container {
@@ -108,7 +108,7 @@ z-index: 1;
   }
   @media screen and (max-width: 1190px) {
     .logo{
-width: 20%;
+width: 70%;
       height: 120%;
       padding: 0;
     }

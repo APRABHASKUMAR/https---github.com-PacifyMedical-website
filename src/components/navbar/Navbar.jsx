@@ -14,7 +14,9 @@ const Navbar = () => {
   };
   return (
     <div className="pacify_navbar">
-      <img src={logo} alt="pacify" className="logo" />
+      <Link to="/">
+        <img src={logo} alt="pacify" className="logo" />
+      </Link>
 
       <div className="pacify_navbar-links_container">
         <p>
