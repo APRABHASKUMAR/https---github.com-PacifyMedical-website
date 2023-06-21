@@ -35,7 +35,7 @@ letter-spacing: 0.019em;
 }
 
 .product-page-margin {
-    margin: 1rem 10rem;
+    margin: 1rem 10%;
 }
 
 .gun {
@@ -93,7 +93,6 @@ margin: 0 auto;
 
 .bio-medical,.spray-tech,.human,.tissue {
     border: dashed 2px black;
-    padding: 1rem 2rem;
 }
 
 .science {
@@ -103,21 +102,27 @@ margin: 0 auto;
 border-radius: 8px;
 margin-top: 1rem;
 margin-bottom: 1rem;
+width: 28%;
 }
 
 .spray-tech {
     margin-top: 2rem;
+    width: 37%;
 }
 
 .human {
     margin-top: 4rem;
+    width: 37%;
+    
 }
 
 .tissue {
-    height: 3.8rem;
+    width: 40%;
+    height: 100%;
 }
 .bio-medical {
-    height: 3.8rem
+    height: 100%;
+    width: 37%;
 }
 .arrow-row-1 {
     display: flex;
@@ -131,7 +136,7 @@ margin-bottom: 1rem;
         transform: rotate(45deg);
         transform-origin: right center;
         background: #FCB040;
-        margin-left: 23rem;
+        margin-left: 30%;
      
     
 }
@@ -144,17 +149,17 @@ margin-bottom: 1rem;
         transform: rotate(-45deg);
         transform-origin: left center;
         background: #FCB040;
-        margin-left: 13rem;
+        margin-left: 18%;
 }
 .arrow-3 {
     display: flex;
         justify-content: center;
         border-bottom: 1px solid black;
-        width: 12%;
+        width: 14%;
         transform: rotate(-45deg);
         transform-origin: right center;
         background: #FCB040;
-        margin-left: 19rem;
+        margin-left: 24%;
 }
 .arrow-4 {
     display: flex;
@@ -164,11 +169,50 @@ margin-bottom: 1rem;
     transform: rotate(45deg);
     transform-origin: left center;
     background: #FCB040;
-    margin-left: 42rem;
+    margin-left: 63%;
  
 
+}
+.flowchart-content {
+    margin-left: 1rem;
 }
 .flowchart-heading {
     font-weight: 600;
     margin-bottom: 0.3rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+}
+@media screen and (max-width: 790px) {
+    .product-page-margin {
+        margin: 1rem 5%;
+    }
+    .product-title {
+        margin-bottom: 1rem;
+    }
+    .intro-box {
+        padding: 1rem 1rem;
+text-align: center;
+    }
+    .product-content {
+        font-size: 0.9rem;
+    }
+    #smd {
+        margin: 0;
+    }
+    .arrow-1,.arrow-2,.arrow-3,.arrow-4 {
+        display: none;
+    }
+    .start {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .end {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .bio-medical,.spray-tech,.human,.tissue,.science {
+        width: 100%;
+    }
 }

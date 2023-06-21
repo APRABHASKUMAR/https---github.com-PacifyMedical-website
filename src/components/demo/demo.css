@@ -1,70 +1,92 @@
 .schedule {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0.7rem 1.6rem;
-    width: 100%;
-    margin-right: 4rem;
-    gap: 1rem;
-    border: none;
-    background: #F1F1F1;
-    border-radius: 0.4rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 28px;
-    
-    color: #4D4D4D;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.7rem 1.6rem;
+  width: 100%;
+  margin-right: 4rem;
+  gap: 1rem;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 0.4rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 28px;
+
+  color: #4d4d4d;
 }
 
 .schedule:focus {
-    border: 2px solid #FF9900;
-    border-radius: 2px; 
-    outline:none;
-    border-radius: 0.4rem;
+  border: 2px solid #ff9900;
+  border-radius: 2px;
+  outline: none;
+  border-radius: 0.4rem;
+}
+.schedule::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 28px;
 
-    }
-    .schedule::placeholder {
-        font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 0.9rem;
-line-height: 28px;
+  color: #4d4d4d;
+}
 
-color: #4D4D4D;
-    }
+.form-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: stretch;
+}
+.form-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  align-items: center;
+}
 
-    .form-row-1 {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
-        align-items: stretch;
-    }
-    .form-row-2 {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 3rem;
-        align-items: center;
-    }
+#organisation {
+  height: 9rem;
+  resize: none;
+}
+#message {
+  width: 51rem;
+  resize: none;
+}
 
-    #organisation {
-        height: 9rem;
-        resize: none;
-    }
-    #message {
-        width: 51rem;
-        resize: none;
-    }
+#submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
 
-    #submit-button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 2rem auto;
-    }
+#email {
+  width: 35rem;
+  height: 3rem;
+}
 
-    #email {
-        width: 35rem;
-        height: 3rem;
-    }
+@media screen and (max-width: 790px) {
+  .form-row-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+  }
+  .schedule {
+    margin-bottom: 1rem;
+  }
+  .form-row-2 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-row {
+    font-size: 1.7rem;
+  }
+  #message {
+    width: 100%;
+    height: 8rem;
+  }
+}

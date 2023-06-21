@@ -34,7 +34,7 @@ const Products = () => {
       </div>
       <h2 className="product-title">Skin Mincing Device</h2>
       <div className="image-row-3">
-        <img className="horizontal" alt="" src={mincing} />
+        <img className="horizontal-image-2" alt="" src={mincing} id = "smd" />
 
         <div className="benefits-text">
           <br />
@@ -82,16 +82,20 @@ const Products = () => {
       <div className="flowchart">
         <div className="start">
           <div className="bio-medical">
+          <br />
             <h5 className="flowchart-heading">Bio-medical</h5>
             <h5 className="flowchart-content">
               Application engineering for solving medical problems
             </h5>
+            <br />
           </div>
           <div className="spray-tech">
+            <br />
             <h5 className="flowchart-heading">Spray Technology </h5>
             <h5 className="flowchart-content">
               Characterization of the spray for solving the medical problems
             </h5>
+            <br />
           </div>
         </div>
         <div className="arrow-row-1">
@@ -109,16 +113,20 @@ const Products = () => {
         </div>
         <div className="end">
           <div className="human">
+          <br />
           <h5 className="flowchart-heading">Human- Centric Design</h5>
             <h5 className="flowchart-content">
             Designing the solution to fit the human need, not fitting humans in the solution
             </h5>
+            <br />
           </div>
           <div className="tissue">
+          <br />
           <h5 className="flowchart-heading">Tissue Engineering</h5>
             <h5 className="flowchart-content">
             Bio-engineered the tissue regeneration and scar-less wound healing
             </h5>
+            <br />
           </div>
         </div>
       </div>

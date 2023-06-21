@@ -36,3 +36,12 @@ h3 {
 .stake {
     color: #FF9900;
 }
+@media screen and (max-width: 790px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .adv-heading {
+        margin-top: 1rem;
+    }
+}

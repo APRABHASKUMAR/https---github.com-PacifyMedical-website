@@ -28,11 +28,11 @@ import Home from "./pages/home";
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About_us />} />
           <Route path="/team" element={<Team />} />
-          {/* <Route path="/products" element={<Products_page />} /> */}
+          <Route path="/products" element={<Products_page />} />
           <Route path="/careers" element={<Career_page />} />
-          {/* <Route path="/demo" element={<Demo_page />} />
+          <Route path="/demo" element={<Demo_page />} />
           <Route path="/write-to-us" element={<Write_page />} />
-          <Route path="/distributor" element={<Distributor_page />} /> */}
+          <Route path="/distributor" element={<Distributor_page />} />
           <Route path="/stakeholders" element={<Stakeholders />} />
           {/* <Route path="/users">
             <Users />

@@ -6,7 +6,7 @@ const Advantages = () => {
       <h2 className="title-row">Advantges.</h2>
       <div className="row">
       <div className="doctors">
-      <h3>
+      <h3 className="adv-heading">
         for 
         <span className="stake"> Doctors</span>
       </h3>
@@ -20,7 +20,7 @@ const Advantages = () => {
 </ul>
       </div>
       <div className="patients">
-      <h3>
+      <h3 className="adv-heading">
         for 
         <span className="stake"> Patients</span>
       </h3>

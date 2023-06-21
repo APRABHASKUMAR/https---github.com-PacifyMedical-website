@@ -14,9 +14,9 @@ const Benefits = () => {
           for
           <span className="stake"> Surgeons</span>
         </h3>
-        <div className="image-row">
+        <div className="image-row-hurt">
           <div className="images">
-            <img className="horizontal" alt="" src={horizontal} />
+            <img className="horizontal-image" alt="" src={horizontal} />
             <img className="vertical" alt="" src={vertical} />
           </div>
 
@@ -57,7 +57,7 @@ const Benefits = () => {
             </h5>
           </div>
           <div className="images">
-            <img className="horizontal" alt="" src={patient} />
+            <img className="horizontal-image-2" alt="" src={patient} />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Benefits = () => {
           <span className="stake"> Hospital Management</span>
         </h3>
         <div className="image-row-3">
-            <img className="horizontal" alt="" src={hospital} />
+            <img className="horizontal-image-3" alt="" src={hospital} />
           
 
           <div className="benefits-text">
