@@ -57,3 +57,16 @@ h6 {
 h6 {
   color: #717171;
 }
+
+@media screen and (max-width: 990px) {
+  .title {
+    margin-left: 2rem;
+  }
+  .parent {
+    padding-left: 3rem;
+    align-items: center;
+  }
+  .child {
+    margin-bottom: 1rem;
+  }
+}
