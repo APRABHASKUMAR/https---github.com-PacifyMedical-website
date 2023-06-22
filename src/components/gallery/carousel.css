@@ -3,7 +3,7 @@ img {
     margin-top: 0;
     margin-bottom: 4rem;
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 590px) {
     .carousel {
         margin-left: 1rem;
         margin-bottom: 1rem;

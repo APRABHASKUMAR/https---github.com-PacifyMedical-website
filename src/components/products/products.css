@@ -215,4 +215,13 @@ text-align: center;
     .bio-medical,.spray-tech,.human,.tissue,.science {
         width: 100%;
     }
+    .human {
+        margin-top: 0rem;
+    }
+    .science {
+        margin-bottom: 1rem;
+    }
+    .tissue{
+        margin-top: 2rem;
+    }
 }
