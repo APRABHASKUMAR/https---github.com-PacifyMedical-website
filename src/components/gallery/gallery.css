@@ -2,21 +2,21 @@
   text-align: center;
 }
 .gallery-text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 8rem;
   margin-bottom: 5rem;
   text-decoration: underline;
   text-decoration-color: #fcb040;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  var(--font-family);
 }
 @media screen and (max-width: 990px) {
   .gallery-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: start;
     margin-bottom: 2rem;
     margin-left: 2rem;
     text-decoration: underline;
     text-decoration-color: #fcb040;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family:  var(--font-family);
   }
 }

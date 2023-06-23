@@ -27,7 +27,7 @@ color: #000000;
 .description {
     font-family: var(--font-family);
 font-weight: 400;
-font-size: 1rem;
+font-size: 0.95rem;
 line-height: 120%;
 color: #000000;
 }

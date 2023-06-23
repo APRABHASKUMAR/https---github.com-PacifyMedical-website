@@ -44,7 +44,7 @@ const Meet_team = () => {
           <div className="biodata">
             <span className="name">Rayyan Ramrajkar</span>
             <br />
-            <span className="position">Design Enginner</span>
+            <span className="position">Design Engineer</span>
             <br />
             <span className="field"> Design & Testing</span>
             <img alt="" src={linkedin} className="team-linkedin" />

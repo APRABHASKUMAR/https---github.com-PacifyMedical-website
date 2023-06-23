@@ -1,5 +1,5 @@
 .career-title {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  var(--font-family);
   font-size: 2.4rem;
   margin-left: 6rem;
   font-weight: 600;
@@ -8,7 +8,7 @@
 
 .banner {
   display: inline-block;
-  background: linear-gradient(90deg, #ff9900 65%, transparent 50%);
+  background: linear-gradient(90deg, #ff9900 66%, transparent 50%);
   padding-top: 3rem;
   padding-bottom: 3rem;
 
@@ -17,7 +17,7 @@
 
 .banner-text {
   font-size: 2.8rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  var(--font-family);
   text-align: center;
   margin-left: 18rem;
   z-index: 1;
@@ -49,7 +49,7 @@
 
 .career-heading {
   font-size: 2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:  var(--font-family);
   margin-bottom: 2rem;
   letter-spacing: 0.01em;
 }
@@ -145,7 +145,7 @@
   }
   .banner-text {
     font-size: 1.9rem;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family:  var(--font-family);
     text-align: start;
     margin-left: 2rem;
     z-index: 1;

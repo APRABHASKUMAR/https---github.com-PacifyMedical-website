@@ -8,7 +8,7 @@
 }
 
 .dist-content {
-    font-family: 'Georgia';
+    font-family:  var(--font-family);
 font-style: normal;
 font-weight: 400;
 font-size: 1rem;

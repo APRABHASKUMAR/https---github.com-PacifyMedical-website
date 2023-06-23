@@ -15,12 +15,14 @@
 .name {
   font-family: var(--new-font-family);
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .position {
   font-family: var(--new-font-family);
   text-decoration: underline;
   font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .field {
@@ -34,7 +36,8 @@
   text-align: start;
   line-height: 1;
   margin-right: 5%;
-  margin-left: 5%;
+  width: 100%;
+  font-family: var(--font-family);
 }
 
 .expert-row-1,
@@ -43,12 +46,16 @@
   justify-content: space-between;
 }
 .expert-row-2 {
-  padding: 4rem 10% 0 10%;
+  padding: 4rem 0 0 0;
+  text-align: center;
 }
 .expert-row-1 {
   padding-top: 2.5rem;
 }
-
+.team-linkedin {
+  width: 1rem;
+  margin-top: 2rem;
+}
 @media screen and (max-width: 790px) {
   .profile-row {
     display: flex;

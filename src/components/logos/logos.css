@@ -1,14 +1,17 @@
 .logo-title {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-left: 4rem;
   margin-bottom: 5rem;
   text-decoration: underline;
   text-decoration-color: #fcb040;
+  font-family:  var(--font-family); 
+
 }
 .development-partners {
   letter-spacing: -0.01em;
   line-height: 150%;
   margin-bottom: 1rem;
+  font-family:  var(--font-family); 
 }
 .development-partners-parent {
   text-align: center;
@@ -26,6 +29,7 @@
 .awards {
   letter-spacing: -0.01em;
   line-height: 150%;
+  font-family:  var(--font-family); 
 }
 .birac-1-icon,
 .meity-logo-1 {
@@ -40,14 +44,15 @@
 .supported-by {
   margin-bottom: 3rem;
   text-align: center;
+  font-family:  var(--font-family); 
 }
 .support-logo-1,
 .support-logo-3 {
-  width: 10rem;
+  width: 8rem;
 }
 .support-logo-2,
 .support-logo-4 {
-  width: 15rem;
+  width: 12rem;
 }
 .supported-by-parent {
   text-align: center;
@@ -59,13 +64,13 @@
   width: 10rem;
 }
 .masschallenge-logo-finalist-ba {
-  width: 10rem;
+  width: 8rem;
 }
 .nsrcel-logo-icon {
   width: 10rem;
 }
 .gdc-iit-madras-logo {
-  width: 10rem;
+  width: 8rem;
 }
 .the-gain-jpeg {
   width: 10rem;
@@ -83,7 +88,7 @@
   margin-top: 5rem;
 }
 .acnd-nexus-final-logo {
-  width: 7rem;
+  width: 6rem;
 }
 .swissnex-logo-1 {
   width: 10rem;
@@ -109,6 +114,8 @@
 .accelerated-by {
   letter-spacing: -0.01em;
   line-height: 150%;
+  font-family:  var(--font-family); 
+  margin-top: 2rem;
 }
 .stanford-seed-spark-logo {
   width: 10rem;

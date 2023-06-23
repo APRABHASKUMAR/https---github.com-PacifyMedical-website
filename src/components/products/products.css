@@ -8,7 +8,7 @@
     font-family: var(--font-family);
 font-style: normal;
 font-weight: 400;
-font-size: 1rem;
+font-size: 0.95rem;
 line-height: 175%;
 /* or 42px */
 
@@ -17,7 +17,13 @@ letter-spacing: 0.019em;
 
 .product-title {
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-family: var(--font-family);
+}
+.product-page-title {
+    margin-bottom: 2rem;
+    font-size: 2.0rem;
+    font-family: var(--font-family);
 }
 
 .image-row-3 {
@@ -46,7 +52,7 @@ letter-spacing: 0.019em;
     
 background: #000000;
 border-radius: 8px;
-width: 10rem;
+width: 11rem;
 height: 3.5rem;
 color: white ;
 padding: 1rem 0;
@@ -175,6 +181,7 @@ width: 28%;
 }
 .flowchart-content {
     margin-left: 1rem;
+    font-size: 0.90rem;
 }
 .flowchart-heading {
     font-weight: 600;

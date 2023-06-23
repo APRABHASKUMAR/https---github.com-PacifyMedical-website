@@ -15,13 +15,19 @@
 .hero_title {
   margin-top: 4rem;
   text-align: center;
-  font-size: 1.7rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  font-family:  var(--font-family);
 }
 .group-div {
   display: flex;
   padding: 5rem 1rem;
   justify-content: center;
+}
+.easy {
+  margin-left: 3rem;
+}
+.hospital {
+  margin-right: 4rem;
 }
 .easy,
 .hospital,
@@ -29,6 +35,7 @@
   width: 100%;
   text-align: center;
   font-family: var(--font-family);
+
 }
 .surgery > h1 {
   font-size: 1.2rem;
@@ -56,6 +63,7 @@
 }
 .group-div-content {
   font-family: var(--font-family);
+  font-size: 0.95rem;
 }
 
 .icon {
@@ -71,6 +79,7 @@
   }
   .group-div-heading {
     margin-top: 1rem;
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 900px) {

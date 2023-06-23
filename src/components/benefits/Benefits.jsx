@@ -44,7 +44,7 @@ const Benefits = () => {
         <div className="image-row-2">
           <div className="benefits-text">
             <h5 className="sub-heading">
-              designed to quickly return you to{" "}
+              Designed to quickly return you to{" "}
               <span className="stake">active life</span>
             </h5>
             <br />
@@ -72,8 +72,8 @@ const Benefits = () => {
 
           <div className="benefits-text">
             <h5 className="sub-heading">
-              designed to provide you a better
-              <span className="stake">experience</span>
+              Designed to provide you a better
+              <span className="stake"> experience</span>
             </h5>
             <br />
             <h5 className="description">

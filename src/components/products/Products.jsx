@@ -10,7 +10,7 @@ const Products = () => {
     "
     >
       <div className="intro-box">
-        <h2 className="product-title">Introduction.</h2>
+        <h2 className="product-page-title">Introduction.</h2>
         <h5 className="product-content">
           For burn patients and their plastic surgeons who have limited options
           for covering large burn wounds, it’s challenging to achieve successful
