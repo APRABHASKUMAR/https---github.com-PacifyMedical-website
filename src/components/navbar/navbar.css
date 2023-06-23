@@ -108,7 +108,7 @@ z-index: 1;
   }
   @media screen and (max-width: 1190px) {
     .logo{
-width: 70%;
+width: 60%;
       height: 120%;
       padding: 0;
     }

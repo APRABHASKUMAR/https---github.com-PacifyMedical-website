@@ -4,8 +4,6 @@ import logo from "../../assets/logo.svg";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
-const Menu = () => {};
-
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

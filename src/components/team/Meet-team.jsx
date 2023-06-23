@@ -7,12 +7,14 @@ import linkedin from "../../assets/linkedin.svg";
 import "./meet-team.css";
 const Meet_team = () => {
   return (
-    <div>
+    <div className="team-main-div">
       <h2 className="title-row">
         Meet our
         <span className="stake"> Team</span>.
       </h2>
       <div className="profile-row">
+        
+
         <div className="profile">
           <img alt="" src={sai} />
           <div className="biodata">
@@ -21,10 +23,10 @@ const Meet_team = () => {
             <span className="position">CEO</span>
             <br />
             <span className="field"> Bio-medical & operation</span>
-            <br />
-            <img alt="" src={linkedin} className="linkedin" />
+            <img alt="" src={linkedin} className="team-linkedin" />
           </div>
         </div>
+        
         <div className="profile">
           <img alt="" src={anmol} />
           <div className="biodata">
@@ -33,8 +35,8 @@ const Meet_team = () => {
             <span className="position">CTO</span>
             <br />
             <span className="field"> Product & Regulatory</span>
-            <br />
-            <img alt="" src={linkedin} className="linkedin" />
+
+            <img alt="" src={linkedin} className="team-linkedin" />
           </div>
         </div>
         <div className="profile">
@@ -45,8 +47,7 @@ const Meet_team = () => {
             <span className="position">Design Enginner</span>
             <br />
             <span className="field"> Design & Testing</span>
-            <br />
-            <img alt="" src={linkedin} className="linkedin" />
+            <img alt="" src={linkedin} className="team-linkedin" />
           </div>
         </div>
       </div>
