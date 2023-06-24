@@ -3,10 +3,10 @@ import './gallery.css'
 import Carousel from './carousel';
 const Gallery = () => {
   const images = [
-    'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
-    'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
-    'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
-    'https://cdn.discordapp.com/attachments/907274042371891201/1089977944161648720/Group_480961631.png',
+    'https://cdn.discordapp.com/attachments/911853030561959966/1122015583773405205/ssg.JPG',
+    'https://cdn.discordapp.com/attachments/911853030561959966/1122015583773405205/ssg.JPG',
+    'https://cdn.discordapp.com/attachments/911853030561959966/1122015458313388093/smd.JPG',
+    'https://cdn.discordapp.com/attachments/911853030561959966/1122015583773405205/ssg.JPG',
   ];
 
   return (

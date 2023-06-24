@@ -82,7 +82,7 @@ margin: 0 auto;
 }
 
 #tech {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     margin: 3rem 0;
 }
 .start,.end {
@@ -208,6 +208,10 @@ text-align: center;
     }
     .arrow-1,.arrow-2,.arrow-3,.arrow-4 {
         display: none;
+    }
+    #tech {
+        font-size: 1.9rem;
+        margin: 3rem 0;
     }
     .start {
         display: flex;
