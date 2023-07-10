@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About } from "../components";
+import {About } from "../components";
 import "./../App.css";
 const About_us = () => {
   return (

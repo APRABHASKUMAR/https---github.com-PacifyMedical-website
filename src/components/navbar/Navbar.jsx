@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <div className="pacify_navbar-links_container">
         <p>
-          <a>Research</a>
+          <Link to="/research">Research</Link>
         </p>
         <p>
           <Link to="/about">About Us</Link>
@@ -42,9 +42,9 @@ const Navbar = () => {
           <Link to="/products">Products</Link>
         </p>
         <p>
-          <a>
+          <Link to="/recognition">
             Recognition <br /> & Awards
-          </a>
+          </Link>
         </p>
         <p>
           <Link to="/stakeholders">
@@ -70,7 +70,7 @@ const Navbar = () => {
           <div className="menu-container">
             <div className="menu-links">
               <p>
-                <a>Research</a>
+                <Link to="/research">Research</Link>
               </p>
               <p>
                 <Link to="/about">About Us</Link>
@@ -95,9 +95,9 @@ const Navbar = () => {
                 <Link to="/products">Products</Link>
               </p>
               <p>
-                <a>
+                <Link to="/recognition">
                   Recognition <br /> & Awards
-                </a>
+                </Link>
               </p>
               <p>
                 <Link to="/stakeholders">

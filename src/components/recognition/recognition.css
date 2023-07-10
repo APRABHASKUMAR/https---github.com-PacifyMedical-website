@@ -1,0 +1,41 @@
+.recognition {
+    margin:0 8%;
+    padding-bottom: 5rem;
+}
+.logo-circle {
+    margin: 0 0 1rem 0;
+    width: 60%;
+}
+.space {
+    margin-bottom: 2rem;
+}
+.grant-parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 12% 5rem 12%;
+}
+
+.grant-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.award-road-odd {
+    border-style: dashed;
+    border-left: none;
+}
+.award-road-even {
+    border-style: dashed;
+    border-right: none;
+    border-top: none;
+    
+}
+.bubble-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.bubble {
+    width: 20%;
+    margin: 3rem 0 0 0;
+}

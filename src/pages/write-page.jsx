@@ -1,6 +1,6 @@
 import React from "react";
 import './stakeholders.css'
-import { Navbar,Write} from "../components";
+import {Write} from "../components";
 import "./../App.css";
 const Write_page = () => {
   return (

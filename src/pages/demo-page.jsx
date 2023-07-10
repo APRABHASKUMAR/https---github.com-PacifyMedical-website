@@ -1,6 +1,6 @@
 import React from "react";
 import './stakeholders.css'
-import { Navbar,Demo} from "../components";
+import {Demo} from "../components";
 import "./../App.css";
 const Demo_page = () => {
   return (

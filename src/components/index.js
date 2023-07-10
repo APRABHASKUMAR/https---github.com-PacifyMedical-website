@@ -13,3 +13,5 @@ export { default as Career } from './career/Career';
 export { default as Demo } from './demo/Demo'; 
 export { default as Write } from './write-to-us/Write-to-us'; 
 export { default as Distributor } from './distributor/Distributor'; 
+export { default as Research } from './research/Research'; 
+export { default as Recog } from './recognition/Recognition'; 

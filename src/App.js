@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Navbar } from "./components";
 import "./App.css";
 import Stakeholders from "./pages/Stakeholders";
+import Recog from "./pages/recog-page";
 import Team from "./pages/Team";
 import About_us from "./pages/About-us";
 import Products_page from "./pages/Products-page";
@@ -10,6 +11,7 @@ import Career_page from "./pages/Career-page";
 import Demo_page from "./pages/demo-page";
 import Write_page from "./pages/write-page";
 import Distributor_page from "./pages/Distributor-page";
+import Research_page from "./pages/Research-page";
 import Home from "./pages/home";
  const App = () => {
   return (
@@ -29,11 +31,13 @@ import Home from "./pages/home";
           <Route path="/about" element={<About_us />} />
           <Route path="/team" element={<Team />} />
           <Route path="/products" element={<Products_page />} />
+          <Route path="/research" element={<Research_page />} />
           <Route path="/careers" element={<Career_page />} />
           <Route path="/demo" element={<Demo_page />} />
           <Route path="/write-to-us" element={<Write_page />} />
           <Route path="/distributor" element={<Distributor_page />} />
           <Route path="/stakeholders" element={<Stakeholders />} />
+          <Route path="/recognition" element={<Recog />} />
           {/* <Route path="/users">
             <Users />
           </Route>
