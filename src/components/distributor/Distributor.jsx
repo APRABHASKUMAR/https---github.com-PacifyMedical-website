@@ -1,6 +1,7 @@
 import React from "react";
 import dist from "../../assets/distributor-image.svg";
 import "./distributor.css";
+const baseUrl = 'https://saishm.pythonanywhere.com';
 const Distributor = () => {
   const [formData, setFormData] = React.useState(
     {
@@ -103,8 +104,9 @@ const handleSubmit = async (event) => {
         <input type="text" className="schedule" placeholder='Speciality'  onChange={handleChange} value={formData.speciality}  name="speciality"/>
         </div>  
       </div>
-      <input type="submit" id="submit-button" className="submit"/>
+      
     </div>
+    <input type="submit" id="submit-button" className="submit"/>
     </form>
   );
 };
