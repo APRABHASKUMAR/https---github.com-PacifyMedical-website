@@ -2,7 +2,53 @@ import React from "react";
 import dist from "../../assets/distributor-image.svg";
 import "./distributor.css";
 const Distributor = () => {
+  const [formData, setFormData] = React.useState(
+    {
+      description: "", 
+      personalname: "", 
+      personalemail: "", 
+      companyname: "", 
+      companyemail: "",
+      companyurl: "",
+      companycity: "",
+      companystate: "",
+      companyzipcode: "",
+      companyaddress: "",
+      designation: "",
+      industry: "",
+      years: "",
+      question: "",
+      speciality: "",
+      personalphone: "",
+
+    }
+) 
+function handleChange(event) {
+  const {name, value} = event.target
+  setFormData(prevFormData => {
+      return {
+          ...prevFormData,
+          [name]: value
+      }
+      
+  })
+}
+
+const handleSubmit = async (event) => {
+  event.preventDefault()
+  console.log(JSON.stringify(formData))
+  const response = await fetch(`${baseUrl}/discontacts/`, {
+    method: 'POST',
+    headers: {
+      "Content-type": "application/json"
+    },  
+    body: JSON.stringify(formData),
+  });
+  const result = await response.json();
+  console.log(result);
+}
   return (
+    <form onSubmit={handleSubmit}>
     <div className="Distributor">
       <div className="gradient">
         <h2 className="title-row">Become a distributor</h2>
@@ -23,43 +69,43 @@ const Distributor = () => {
       Company <span className="stake">Information</span>.
       </h3>
       <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='Name'/>
-        <input type="text" className="schedule" placeholder='Namemail_example@ge'/>
-        <input type="text" className="schedule" placeholder='Phone no.'/>
+        <input type="text" className="schedule" placeholder='Name' onChange={handleChange} value={formData.name}  name="personalname"/>
+        <input type="text" className="schedule" placeholder='Namemail_example@ge' onChange={handleChange} value={formData.personalemail}  name="personalemail"/>
+        <input type="text" className="schedule" placeholder='Phone no.' onChange={handleChange} value={formData.personalphone}  name="personalphone"/>
         </div>
         <h3 className="dist-headings">
       Personal
       <span className="stake"> Information</span>.
       </h3>
       <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='Name'/>
-        <input type="text" className="schedule" placeholder='Namemail_example@ge'/>
-        <input type="text" className="schedule" placeholder='Website URL'/>
+        <input type="text" className="schedule" placeholder='Name'  onChange={handleChange} value={formData.companyname}  name="companyname"/>
+        <input type="text" className="schedule" placeholder='Namemail_example@ge'  onChange={handleChange} value={formData.companyemail}  name="companyemail"/>
+        <input type="text" className="schedule" placeholder='Website URL'  onChange={handleChange} value={formData.companyurl}  name="companyurl"/>
         </div>
         <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='City'/>
-        <input type="text" className="schedule" placeholder='State / Province'/>
-        <input type="text" className="schedule" placeholder='ZIP / Postal Code'/>
+        <input type="text" className="schedule" placeholder='City' onChange={handleChange} value={formData.name}  name="companycity"/>
+        <input type="text" className="schedule" placeholder='State / Province'  onChange={handleChange} value={formData.companystate}  name="companystate"/>
+        <input type="text" className="schedule" placeholder='ZIP / Postal Code'  onChange={handleChange} value={formData.companyzipcode}  name="companyzipcode"/>
         </div>
         <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='Address line 1' id = 'address-1'/>
-        <input type="text" className="schedule" placeholder='Address line 2' id = 'address-2'/>
+        <input type="text" className="schedule" placeholder='Address line 1' id = 'address-1'  onChange={handleChange} value={formData.companyaddress}  name="companyaddress"/>
         </div>  
         <h3 className="dist-headings">
       Experience.
       </h3>
       <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='Designation'/>
-        <input type="text" className="schedule" placeholder='Industry'/>
-        <input type="text" className="schedule" placeholder='No. of years in wound-care business'/>
+        <input type="text" className="schedule" placeholder='Designation' onChange={handleChange} value={formData.designation}  name="designation"/>
+        <input type="text" className="schedule" placeholder='Industry' onChange={handleChange} value={formData.industry}  name="industry"/>
+        <input type="text" className="schedule" placeholder='No. of years in wound-care business'  onChange={handleChange} value={formData.years}  name="years"/>
         </div>  
         <div className="form-row-1">
-        <input type="text" className="schedule" placeholder='Are you in advanced wound care market ?'/>
-        <input type="text" className="schedule" placeholder='Speciality'/>
+        <input type="text" className="schedule" placeholder='Are you in advanced wound care market ?'  onChange={handleChange} value={formData.question}  name="question"/>
+        <input type="text" className="schedule" placeholder='Speciality'  onChange={handleChange} value={formData.speciality}  name="speciality"/>
         </div>  
       </div>
       
     </div>
+    </form>
   );
 };
 
