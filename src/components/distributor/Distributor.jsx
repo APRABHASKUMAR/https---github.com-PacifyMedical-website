@@ -4,8 +4,7 @@ import "./distributor.css";
 const baseUrl = 'https://saishm.pythonanywhere.com';
 const Distributor = () => {
   const [formData, setFormData] = React.useState(
-    { title: "",
-      description: "", 
+    {
       personalname: "", 
       personalemail: "", 
       companyname: "", 
