@@ -103,7 +103,7 @@ const handleSubmit = async (event) => {
         <input type="text" className="schedule" placeholder='Speciality'  onChange={handleChange} value={formData.speciality}  name="speciality"/>
         </div>  
       </div>
-      
+      <input type="submit" id="submit-button" className="submit"/>
     </div>
     </form>
   );
