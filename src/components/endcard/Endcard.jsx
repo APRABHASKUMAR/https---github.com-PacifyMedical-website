@@ -1,48 +1,62 @@
 import React from "react";
 import "./endcard.css";
 import testimonial from "../../assets/testimonial.svg";
-import left from "../../assets/left.svg";
-import right from "../../assets/right.svg";
+// import left from "../../assets/left.svg";
+// import right from "../../assets/right.svg";
 import logo from "../../assets/logo.svg";
 import linkedin from "../../assets/linkedin.svg";
 import twitter  from "../../assets/twitter.svg";
+import Carousel from './test'
+const baseUrl = "https://saishm.pythonanywhere.com";
 
 const Endcard = () => {
+  const [allMemes, setAllMemes] = React.useState([])
+  const [meme, setMeme] = React.useState({
+    heading: "",
+    author: "",
+    blogs: "" 
+  })
+  React.useEffect(() => {
+    async function getMemes() {
+        const res = await fetch(`${baseUrl}/hblogs/`)
+        const data = await res.json()
+        setAllMemes(data.data)
+    }
+    getMemes()
+}, [])
+
+const testimonials = allMemes.map(item => {
+  return (
+    <div className="testimonials">
+    <div className="group-parent">
+          <h5 className="lorem">{item.attributes.blogs}</h5>
+          <div className="design">
+            <div>
+              <b className="dr-name">{item.attributes.author}</b>
+              <h6 className="hospital-nameorganization">
+              {item.attributes.heading}
+              </h6>
+            </div>
+            <img className="group-child-design" alt="" src={testimonial} />
+          </div>
+        </div>
+        </div>
+  )
+})  
+
   return (
     <div className="endcard-1">
       <div className="title">
         <b className="what-people-say">What people say about us</b>
       </div>
-      <div className="testimonials">
+      {/* <div className="testimonials">
         <img className="left" alt="" src={left} />
-        <div className="group-parent">
-          <h5 className="lorem">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu nisi, purus quam sed. Aenean a habitant ut faucibus sodales a lobortis convallis lectus. Maecenas in justo, nam ut. Nunc purus in tristique a sem non urna diam. Lobortis ac in habitant convallis tristique arcu sed purus. Aliquet id ac cras ipsum magna id nulla integer. A, facilisis mi vitae duis odio nunc, adipiscing in at. `}</h5>
-          <div className="design">
-            <div>
-              <b className="dr-long-name">Dr. Long name XYZ</b>
-              <h6 className="hospital-nameorganization">
-                Hospital name/organization
-              </h6>
-            </div>
-            <img className="group-child" alt="" src={testimonial} />
-          </div>
-        </div>
-
-        <div className="group-parent">
-          <h5 className="lorem">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu nisi, purus quam sed. Aenean a habitant ut faucibus sodales a lobortis convallis lectus. Maecenas in justo, nam ut. Nunc purus in tristique a sem non urna diam. Lobortis ac in habitant convallis tristique arcu sed purus. Aliquet id ac cras ipsum magna id nulla integer. A, facilisis mi vitae duis odio nunc, adipiscing in at. `}</h5>
-          <div className="design">
-            <div>
-              <b className="dr-long-name">Dr. Long name XYZ</b>
-              <h6 className="hospital-nameorganization">
-                Hospital name/organization
-              </h6>
-            </div>
-            <img className="group-child" alt="" src={testimonial} />
-          </div>
-        </div>
+        <Carousel axis="horizontal" autoPlay={true} showIndicators={false} transitionTime={1}>
+             {testimonials}
+            </Carousel>
         <img className="right" alt="" src={right} />
-      </div>
-
+      </div> */}
+       <Carousel images={allMemes} size={3} />
       <div className="endcard">
         <div className="initial">
           <img src={logo} alt="pacify" className="logo-end" />

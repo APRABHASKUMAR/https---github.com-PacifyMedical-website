@@ -23,8 +23,11 @@ function handleChange(event) {
 
 const handleSubmit = async (event) => {
   event.preventDefault()
-  console.log(JSON.stringify(formData))
-  const response = await fetch(`${baseUrl}/wcontact/`, {
+ if (formData.name == '' || formData.number == '' || formData.organization == '' || formData.message == '' || formData.email == '') {
+  alert("PLease fill all the compulsory details");
+ }
+ else
+  {const response = await fetch(`${baseUrl}/democontact/`, {
     method: 'POST',
     headers: {
       "Content-type": "application/json"
@@ -32,14 +35,14 @@ const handleSubmit = async (event) => {
     body: JSON.stringify(formData),
   });
   const result = await response.json();
-  console.log(result);
+  console.log(result);}
 }
   return (
     <form onSubmit={handleSubmit}>
       <div className="title-row">
         Write to<span className="stake"> us</span>.
       </div>
-
+      <h6 className="subtext">Note that all the fields are compulsory</h6>
       <div className="form-row-1">
         <input type="text" className="schedule" placeholder="Name" onChange={handleChange} value={formData.name}  name="name"/>
         <input

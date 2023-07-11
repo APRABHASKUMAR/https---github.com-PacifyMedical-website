@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './carousel.css';
-
-const Carousel = ({ images,size, interval = 5000 }) => {
+import './test.css';
+import testimonial from "../../assets/testimonial.svg";
+const Test = ({ images,size, interval = 5000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [displayedImages, setDisplayedImages] = useState([]);
   const [matches, setMatches] = useState(
@@ -45,10 +45,11 @@ const Carousel = ({ images,size, interval = 5000 }) => {
 
   const getDisplayedImages = () => {
     if (matches) {
+        console.log("hi")
+        console.log(JSON.stringify(images.length))
       return [
         images[(currentIndex - 1 + images.length) % images.length],
         images[currentIndex],
-     size == 3  && images[(currentIndex + 1) % images.length],
       ];
     } else {
       return [images[currentIndex]];
@@ -57,11 +58,26 @@ const Carousel = ({ images,size, interval = 5000 }) => {
 
   return (
     <div className="carousel">
-      {displayedImages.map((image, index) => (
-        <img key={index} src={image} alt="carousel-slide" />
-      ))}
+      {displayedImages.map(item => {
+  return (
+    <div className="testimonials">
+    <div className="group-parent">
+          <h5 className="lorem">{item.attributes.blogs}</h5>
+          <div className="design">
+            <div>
+              <b className="dr-name">{item.attributes.author}</b>
+              <h6 className="hospital-nameorganization">
+              {item.attributes.heading}
+              </h6>
+            </div>
+            <img className="group-child-design" alt="" src={testimonial} />
+          </div>
+        </div>
+        </div>
+  )
+})  }
     </div>
   );
 };
 
-export default Carousel;
+export default Test;

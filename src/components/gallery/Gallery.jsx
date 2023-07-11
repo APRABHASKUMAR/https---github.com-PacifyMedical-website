@@ -13,7 +13,7 @@ const Gallery = () => {
     <div>
       <h1 className='gallery-text'>Gallery</h1>
       <div className='gallery'>
-      <Carousel images={images} />
+      <Carousel images={images} size={3} />
     </div>
     </div>
     

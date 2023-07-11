@@ -4,16 +4,53 @@ import random from "../../assets/random.svg";
 import raise_hand from "../../assets/raise-hand.svg";
 import banner from "../../assets/banner-image.svg";
 import hammer from "../../assets/hammer.svg";
-
+const baseUrl = 'https://saishm.pythonanywhere.com';
 const Career = () => {
+const [allMemes, setAllMemes] = React.useState([])
+const [meme, setMeme] = React.useState({
+  name: "",
+  details: "",
+  location: "" 
+})
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 800px)").matches
   );
+  React.useEffect(() => {
+    async function getMemes() {
+        const res = await fetch(`${baseUrl}/careers/`)
+        const data = await res.json()
+        setAllMemes(data.data)
+        console.log(data.data[0])
+    }
+    getMemes()
+}, [])
+
   useEffect(() => {
     window
     .matchMedia("(min-width: 768px)")
     .addEventListener('change', e => setMatches( e.matches ));
   }, []);
+  const postings = allMemes.map(item => {
+    return (
+      <div className="posting-1">
+      <div className="list-1">
+          <img src={hammer} alt="" className="hammer"  />
+          <h5 id="position">
+          {item.attributes.name}
+          </h5>
+      </div>
+      <div className="location-1">
+          <div className="location-button">
+          {item.attributes.location}
+          </div>
+          <h5 className="date-time">
+          {item.attributes.details}
+          </h5>
+
+      </div>
+  </div>
+    )
+})    
   return (
     <div>
       <div className="career-title">Careers</div>
@@ -142,40 +179,8 @@ const Career = () => {
         <h4 className="engineering">
         Engineering
         </h4>
-        <div className="posting-1">
-            <div className="list-1">
-                <img src={hammer} alt="" className="hammer"  />
-                <h5 id="position">
-                Internship
-                </h5>
-            </div>
-            <div className="location-1">
-                <div className="location-button">
-                    Mumbai
-                </div>
-                <h5 className="date-time">
-                    December 13, 2021 6 PM
-                </h5>
-
-            </div>
-        </div>
-        <div className="posting-1">
-            <div className="list-1">
-                <img src={hammer} alt="" className="hammer"  />
-                <h5 id="position">
-                Internship
-                </h5>
-            </div>
-            <div className="location-1">
-                <div className="location-button">
-                    Mumbai
-                </div>
-                <h5 className="date-time">
-                    December 13, 2021 6 PM
-                </h5>
-
-            </div>
-        </div>
+        
+        {postings}
     </div>
   );
 };

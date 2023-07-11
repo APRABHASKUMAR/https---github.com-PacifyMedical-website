@@ -67,7 +67,9 @@
   width: 35rem;
   height: 3rem;
 }
-
+.subtext {
+  color: red;
+}
 @media screen and (max-width: 790px) {
   .form-row-1 {
     display: flex;
