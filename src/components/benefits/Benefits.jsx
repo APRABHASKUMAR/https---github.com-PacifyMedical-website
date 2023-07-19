@@ -9,9 +9,9 @@ const Benefits = () => {
     <div>
       <h2 className="title-row">Benefits.</h2>
 
-      <div className="doctors">
+      <div className="lam">
         <h3>
-          for
+        For
           <span className="stake"> Surgeons</span>
         </h3>
         <div className="image-row-hurt">
@@ -36,9 +36,9 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="doctors">
+      <div className="lam">
         <h3>
-          for
+        For
           <span className="stake"> Patients</span>
         </h3>
         <div className="image-row-2">
@@ -61,9 +61,9 @@ const Benefits = () => {
           </div>
         </div>
       </div>
-      <div className="doctors">
+      <div className="lam">
         <h3>
-          for
+          For
           <span className="stake"> Hospital Management</span>
         </h3>
         <div className="image-row-3">

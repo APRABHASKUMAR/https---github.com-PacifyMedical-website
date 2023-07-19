@@ -1,5 +1,7 @@
 import React from 'react'
+import "./write-to-us.css"
 const baseUrl = 'https://saishm.pythonanywhere.com';
+
 const Demo = () => {
   const [formData, setFormData] = React.useState(
     {
@@ -38,9 +40,14 @@ const handleSubmit = async (event) => {
   console.log(result);}
 }
   return (
-    <form onSubmit={handleSubmit}>
+    <div className="page-bg-orange">
+<form onSubmit={handleSubmit}>
       <div className="title-row">
         Write to<span className="stake"> us</span>.
+      </div>
+      <div className="speech">
+      We are always happy to answer questions and discuss our products. <br />
+Contact us to learn more!
       </div>
       <h6 className="subtext">Note that all the fields are compulsory</h6>
       <div className="form-row-1">
@@ -71,6 +78,8 @@ const handleSubmit = async (event) => {
       </div>
       <input type="submit" id="submit-button" className="submit"/>
     </form>
+    </div>
+    
   );
 }
 

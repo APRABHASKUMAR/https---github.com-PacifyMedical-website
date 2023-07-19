@@ -1,73 +1,43 @@
 import React from "react";
-import "./logos.css";
-import betic from "../../logos/betic.svg";
-import coep from "../../logos/coep.svg";
-import birac from "../../logos/birac.svg";
-import meity from "../../logos/meity.svg";
-import venture from "../../logos/venture.svg";
-import sine from "../../logos/sine.svg";
-import oasis from "../../logos/oasis.svg";
-import ciie from "../../logos/ciie.svg";
-import vill from "../../logos/vill.svg";
-import mass from "../../logos/mass.svg";
-import gdc from "../../logos/gdc.svg";
-import aim from "../../logos/aim.svg";
-import nexus from "../../logos/nexus.svg";
-import swiss from "../../logos/swiss.svg";
-import md from "../../logos/md.svg";
-import idea from "../../logos/idea.svg";
-import nsrcel from "../../logos/nsrcel.svg";
-import gain from "../../logos/gain.svg";
-import stan from "../../logos/stan.svg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./logos.css"
+const baseUrl = "https://saishm.pythonanywhere.com";
+
 const Logos = () => {
+  const [allMemes, setAllMemes] = React.useState([]);
+  const [meme, setMeme] = React.useState({
+    title: "",
+    outlet: "",
+    news: "",
+  });
+  const settings = {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+  };
+  React.useEffect(() => {
+    async function getMemes() {
+      const res = await fetch(`${baseUrl}/hLogo/`);
+      const data = await res.json();
+      setAllMemes(data.data);
+      console.log(data.data[0]);
+    }
+    getMemes();
+  });
+  const logos = allMemes.map((item) => {
+    return (
+        <img className="logo-image" alt="" src={item.attributes.image}  />
+    );
+  });
   return (
     <div className="logos">
-      <div className="supported-by-global-organizati-parent">
-        <b className="logo-title">Supported by global organization</b>
-        <div className="group-child4" />
+     <h1 className="title">Logos</h1>
+     <div className="slider-1">
+        <Slider {...settings}>{logos}</Slider>
       </div>
-      <div className="row-initial">
-      <div className="development-partners-parent">
-        <div className="development-partners">Development partners</div>
-        <img className="betic" alt="" src={betic} />
-        <img className="coep" alt="" src={coep} />
-     
-        
-      </div>
-      <div className="awards-parent">
-        <div className="awards">Awards</div>
-        <img className="birac-1-icon" alt="" src={birac} />
-        <img className="meity-logo-1" alt="" src={meity} />
-      </div>
-      </div>
-      
-        <div className="supported-by">Supported by</div>
-        <div className="supported-by-parent">
-        <img className="support-logo-1" alt="" src={venture} />
-        <img className="support-logo-2" alt="" src={oasis} />
-        <img className="support-logo-3" alt="" src={sine} />
-        <img className="support-logo-4" alt="" src={ciie} />
-      </div>
-     
-        <div className="accelerated-by">Accelerated by</div>
-        <div className="group-parent-1">
-          <img className="villgro-logo-icon" alt="" src={vill} />
-          <img className="masschallenge-logo-finalist-ba" alt="" src={mass} />
-          <img className="nsrcel-logo-icon" alt="" src={nsrcel} />
-          <img className="gdc-iit-madras-logo" alt="" src={gdc} />
-          <img className="the-gain-jpeg" alt="" src={gain} />
-      </div>
-      <div className="aimprime-logo-parent">
-          <img className="aimprime-logo-icon" alt="" src={aim} />
-          <img className="acnd-nexus-final-logo" alt="" src={nexus} />
-          <img className="swissnex-logo-1" alt="" src={swiss} />
-          <img className="m2d2-logo-icon" alt="" src={md} />
-          <img className="idea2-icon" alt="" src={idea} />
-        </div>
-        {/* <div className="stanford">
-        <img className="stanford-seed-spark-logo" alt="" src={stan} />
-        </div> */}
-        
     </div>
   );
 };

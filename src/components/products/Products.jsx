@@ -5,10 +5,7 @@ import ssg from "../../assets/SSG.svg";
 import download from "../../assets/download.svg";
 const Products = () => {
   return (
-    <div
-      className="product-page-margin
-    "
-    >
+   <div>
       <div className="intro-box">
         <h2 className="product-page-title">Introduction.</h2>
         <h5 className="product-content">
@@ -32,9 +29,12 @@ const Products = () => {
           stay.
         </h5>
       </div>
+       <div
+      className="product-page-margin" >
       <h2 className="product-title">Skin Mincing Device</h2>
-      <div className="image-row-3">
-        <img className="horizontal-image-2" alt="" src={mincing} id = "smd" />
+      <div className="page-card-bg">
+      <div className="image-row-9">
+        <img className="horizontal-image-2" alt="" src={mincing} id="smd" />
 
         <div className="benefits-text">
           <br />
@@ -49,8 +49,11 @@ const Products = () => {
           </h5>
         </div>
       </div>
+      </div>
+     
       <h2 className="product-title">Skin Spray Gun</h2>
-      <div className="image-row-3">
+      <div className="page-card-bg">
+      <div className="image-row-9">
         <img className="gun" alt="" src={ssg} />
 
         <div className="benefits-text">
@@ -68,21 +71,23 @@ const Products = () => {
           </h5>
         </div>
       </div>
+      </div>
       <div className="button-div">
         <button className="brochure">
           <div className="button-content">
-            <img src={download} alt="download" className="download-icon" />
             <h5 className="button-text">Download brochure</h5>
           </div>
         </button>
       </div>
+      </div>
+      <div className="flowchart">
       <h2 className="title-row" id="tech">
         Technology <span className="stake">Platform</span>{" "}
       </h2>
-      <div className="flowchart">
+      
         <div className="start">
           <div className="bio-medical">
-          <br />
+            <br />
             <h5 className="flowchart-heading">Bio-medical</h5>
             <h5 className="flowchart-content">
               Application engineering for solving medical problems
@@ -99,36 +104,40 @@ const Products = () => {
           </div>
         </div>
         <div className="arrow-row-1">
-            <div className="arrow-1"></div>
-            <div className="arrow-2"></div>
+          <div className="arrow-1"></div>
+          <div className="arrow-2"></div>
         </div>
         <div className="mid">
           <div className="science">
-          <h5 className="flowchart-heading">Science, Technology and Innovation </h5>
+            <h5 className="flowchart-heading-1">
+              Science, Technology <br /> and Innovation{" "}
+            </h5>
           </div>
         </div>
         <div className="arrow-row-2">
-            <div className="arrow-3"></div>
-            <div className="arrow-4"></div>
+          <div className="arrow-3"></div>
+          <div className="arrow-4"></div>
         </div>
         <div className="end">
           <div className="human">
-          <br />
-          <h5 className="flowchart-heading">Human- Centric Design</h5>
+            <br />
+            <h5 className="flowchart-heading">Human- Centric Design</h5>
             <h5 className="flowchart-content">
-            Designing the solution to fit the human need, not fitting humans in the solution
+              Designing the solution to fit the human need, not fitting humans
+              in the solution
             </h5>
             <br />
           </div>
           <div className="tissue">
-          <br />
-          <h5 className="flowchart-heading">Tissue Engineering</h5>
+            <br />
+            <h5 className="flowchart-heading">Tissue Engineering</h5>
             <h5 className="flowchart-content">
-            Bio-engineered the tissue regeneration and scar-less wound healing
+              Bio-engineered the tissue regeneration and scar-less wound healing
             </h5>
             <br />
           </div>
         </div>
+      
       </div>
     </div>
   );

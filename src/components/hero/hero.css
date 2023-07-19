@@ -4,7 +4,6 @@
   position: relative;
   height: 0;
 }
-
 .video-responsive iframe {
   left: 0;
   top: 0;
@@ -13,45 +12,45 @@
   position: absolute;
 }
 .hero_title {
-  margin-top: 4rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 1.6rem;
   font-family:  var(--font-family);
 }
+.design {
+  height: 91%;
+  padding-left: 57rem;
+}
 .group-div {
   display: flex;
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
   justify-content: center;
 }
 .easy {
-  margin-left: 3rem;
+  background: hsl(36, 100%, 95%);
+  margin-right: 13rem;
 }
 .hospital {
-  margin-right: 4rem;
+  margin-left: 13rem;
 }
 .easy,
 .hospital,
 .surgery {
-  width: 100%;
+  width: 15%;
+  padding: 3rem 0.8rem;
   text-align: center;
   font-family: var(--font-family);
+  background: #FFF4E3;
+  box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.27);
+  border-radius: 0.625rem;
 
 }
-.surgery > h1 {
-  font-size: 1.2rem;
+.group-div-heading{
+  font-size: 1.1rem;
   padding-bottom: 1rem;
   font-family: var(--font-family);
 }
-.easy > h1 {
-  font-size: 1.2rem;
-  padding-bottom: 1rem;
-  font-family: var(--font-family);
-}
-.hospital > h1 {
-  font-size: 1.2rem;
-  padding-bottom: 1rem;
-  font-family: var(--font-family);
-}
+
 .reducing {
   color: #ff9900;
 }
@@ -63,12 +62,45 @@
 }
 .group-div-content {
   font-family: var(--font-family);
-  font-size: 0.95rem;
+  font-size: 0.90rem;
 }
+.product-widget{
+  border-radius: 1.2rem;
+  width: 35%;
+  box-shadow: 6px 10px 10px 5px rgba(0, 0, 0, 0.28);
+margin-right: 2rem;
+padding-bottom: 1rem;
+background:white;
 
+}
+.our-products{
+  background: #FECE44;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+.widget-text{
+  padding-left: 1.4rem;
+}
 .icon {
   width: 0.8rem;
   margin: 0 0.5rem;
+}
+.product-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 15rem;
+}
+.home-img{
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+.title-1 {
+  font-size: 1.4rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #fcb040;
+  font-family:  var(--font-family);
 }
 @media screen and (max-width: 1190px) {
   .hero_title {

@@ -15,3 +15,4 @@ export { default as Write } from './write-to-us/Write-to-us';
 export { default as Distributor } from './distributor/Distributor'; 
 export { default as Research } from './research/Research'; 
 export { default as Recog } from './recognition/Recognition'; 
+export { default as Footer } from './footer/Footer'; 

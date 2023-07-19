@@ -6,7 +6,7 @@
 }
 
     .gradient {
-        background: linear-gradient(180deg, #FF9900 63%, #FFFFFF 37%);
+        background: linear-gradient(180deg, #FECE44 63%, #FFFFFF 37%);
         padding-top: 3.5rem;
         text-align: center;
     }

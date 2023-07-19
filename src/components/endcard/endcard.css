@@ -5,24 +5,16 @@
   width: 28rem;
   height: 14rem;
   box-shadow: 0px 4px 4px 1px rgba(255, 153, 0, 0.25);
-
+margin-bottom: 2rem;
   border-radius: 10px;
-  padding: 2rem 0rem 2rem 1.5rem;
+  padding: 2rem 0rem 0 1.5rem;
+  background: white;
 }
 .lorem,
 .ipsum {
   font-family: var(--font-family);
   font-size: 0.8rem;
   margin-bottom: 1rem;
-  color: black;
-}
-.testimonials {
-  display: flex;
-  font-family: var(--font-family);
-  justify-content: space-around;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  margin-bottom: 8rem;
   color: black;
 }
 .dr-name {
@@ -32,7 +24,13 @@
 .right {
   margin: 0;
 }
-
+h3 {
+  color: red;
+}
+.slider {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
 .endcard {
   display: flex;
   flex-direction: row;
@@ -45,14 +43,16 @@
   height: 5rem;
   margin: 0;
 padding: 0;
-  background: red;
 }
 .design {
   padding: 0;
   display: flex;
   justify-content: space-between;
 }
-
+.test-carousel{
+  background: #FECE44;
+  padding: 1rem 0;
+}
 .carousel-arrow {
   background-color: black; /* Set the arrow background color to black */
   color: white; /* Set the arrow text color to white */

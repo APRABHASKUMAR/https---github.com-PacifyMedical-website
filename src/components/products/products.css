@@ -1,18 +1,32 @@
 .intro-box {
-    padding: 3rem 4rem;
-    border: dashed 2px black;
+    padding: 3rem 9rem;
+    background: #FECE44;
     margin-bottom: 3rem;
 }
+.page-card-bg {
+    border-radius: 30px;
+    background: #FFF4E3;
+    padding-top: 0.01rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.02rem;
+    box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
 
+}
+.flowchart{
+    background: #FECE44;
+    padding-left: 7%;
+    padding-top: 1rem;
+}
 .product-content {
     font-family: var(--font-family);
-font-style: normal;
 font-weight: 400;
-font-size: 0.95rem;
+font-size: 0.9rem;
 line-height: 175%;
+text-align: left;
 /* or 42px */
-
-letter-spacing: 0.019em;
+letter-spacing: 0.04px;
 }
 
 .product-title {
@@ -26,12 +40,13 @@ letter-spacing: 0.019em;
     font-family: var(--font-family);
 }
 
-.image-row-3 {
+.image-row-9 {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
 }
 
 .horizontal {
@@ -75,6 +90,7 @@ margin: 0 auto;
 
 .button-text {
     font-family: var(--font-family);
+    color: #FECE44;
 }
 
 .button-div {
@@ -83,66 +99,82 @@ margin: 0 auto;
 
 #tech {
     font-size: 2.4rem;
-    margin: 3rem 0;
+    margin: 0rem 0;
 }
-.start,.end {
+.start {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4REM;
+    margin-top: 2REM;
+    margin-left: 10REM;
+    margin-right: 20%;
+    
+   
+}
+.end {
+    display: flex;
+    justify-content: space-between;
     margin-top: 4REM;
+    margin-left: 10REM;
+    padding-bottom: 4rem;
+    margin-right: 20%;
+    
    
 }
 
+
 .mid {
-    text-align: center  ;
+    padding-left:35%;
 }
 
 .bio-medical,.spray-tech,.human,.tissue {
-    border: dashed 2px black;
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
+
+    
 }
 
 .science {
     display: inline-block;
-    padding: 1rem 2rem;
-    background: #FCB040;
+    padding: 1rem 0rem;
+    background: #000;
 border-radius: 8px;
 margin-top: 1rem;
 margin-bottom: 1rem;
-width: 28%;
+padding: 1rem 2rem;
+
 }
 
 .spray-tech {
-    margin-top: 2rem;
-    width: 37%;
+    width: 35%;
 }
-
 .human {
-    margin-top: 4rem;
-    width: 37%;
-    
+    width: 40%;
 }
 
 .tissue {
-    width: 40%;
+    width: 35%;
     height: 100%;
 }
 .bio-medical {
     height: 100%;
-    width: 37%;
+    width: 30%;
 }
 .arrow-row-1 {
     display: flex;
+    padding-left: 5rem;
 }
 
 .arrow-1 {
         display: flex;
         justify-content: center;
         border-bottom: 1px solid black;
-        width: 10%;
+        width: 5%;
         transform: rotate(45deg);
         transform-origin: right center;
         background: #FCB040;
-        margin-left: 30%;
+        margin-left: 25%;
      
     
 }
@@ -151,7 +183,7 @@ width: 28%;
     display: flex;
         justify-content: center;
         border-bottom: 1px solid black;
-        width: 7%;
+        width: 5%;
         transform: rotate(-45deg);
         transform-origin: left center;
         background: #FCB040;
@@ -161,32 +193,44 @@ width: 28%;
     display: flex;
         justify-content: center;
         border-bottom: 1px solid black;
-        width: 14%;
+        width: 5%;
         transform: rotate(-45deg);
         transform-origin: right center;
         background: #FCB040;
-        margin-left: 24%;
+        margin-left: 30%;
 }
 .arrow-4 {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid black;
-    width: 7%;
+    width: 5%;
     transform: rotate(45deg);
     transform-origin: left center;
     background: #FCB040;
-    margin-left: 63%;
+    margin-left: 53%;
  
 
 }
 .flowchart-content {
     margin-left: 1rem;
     font-size: 0.90rem;
+    text-align: left;
 }
 .flowchart-heading {
     font-weight: 600;
     margin-bottom: 0.3rem;
     margin-left: 1rem;
+    text-align: left;
+    /* margin-top: 1rem; */
+}
+.flowchart-heading-1 {
+    color: #FECE44;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     /* margin-top: 1rem; */
 }
 @media screen and (max-width: 790px) {

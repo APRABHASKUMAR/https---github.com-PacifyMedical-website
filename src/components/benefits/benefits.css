@@ -11,17 +11,25 @@
 }
 .image-row-hurt {
     display: flex;
+    padding: 2rem;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 4rem;
+    border-radius: 30px;
+background: #FFF4E3;
+box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
 }
-
+h3{
+    color: #000;
+    font-size: 1.4rem;
+}
 .sub-heading {
     font-family: var(--font-family);
 font-weight: 600;
 font-size: 1rem;
 line-height: 150%;
 color: #000000;
+text-align: left;
 }
 
 .description {
@@ -30,6 +38,7 @@ font-weight: 400;
 font-size: 0.95rem;
 line-height: 140%;
 color: #000000;
+text-align: left;
 }
 
 .benefits-text {
@@ -47,13 +56,21 @@ color: #000000;
     justify-content: space-between;
     margin-top: 1rem;
     margin-bottom: 4rem;
+    border-radius: 30px;
+    padding: 2rem;
+background: #FFF4E3;
+box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .image-row-3 {
     display: flex;
     align-items: center;
+    padding: 2rem;
     justify-content: space-between;
     margin-top: 4rem;
+    border-radius: 30px;
+background: #FFF4E3;
+box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 790px) {

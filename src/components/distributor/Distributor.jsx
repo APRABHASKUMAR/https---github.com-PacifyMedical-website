@@ -79,6 +79,9 @@ const Distributor = () => {
             in representing Pacify Medical nationally, please contact the
             Marketing & Sales Department via the form below.
           </h4>
+          <div className="page-bg-orange">
+
+          
           <h3 className="dist-headings">
             Company <span className="stake">Information</span>.
           </h3>
@@ -224,6 +227,7 @@ const Distributor = () => {
             />
           </div>
         </div>
+      </div>
       </div>
       <input type="submit" id="submit-button" className="submit" />
     </form>

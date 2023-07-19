@@ -71,6 +71,7 @@ const handleSubmit = async (event) => {
         />
       </div>
       <input type="submit" id="submit-button" className="submit"/>
+      <button>submit</button>
     </form>
   );
 };

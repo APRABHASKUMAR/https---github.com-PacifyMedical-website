@@ -2,8 +2,8 @@ import React from "react";
 import './advantages.css'
 const Advantages = () => {
   return (
-    <div>
-      <h2 className="title-row">Advantges.</h2>
+    <div className="advantages">
+      <h2 className="title-row">Advantages.</h2>
       <div className="row">
       <div className="doctors">
       <h3 className="adv-heading">

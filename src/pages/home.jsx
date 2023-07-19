@@ -1,14 +1,14 @@
 import React from "react";
-import { Endcard, Gallery, Hero, Logos, Media} from "../components";
+import { Endcard, Gallery, Hero, Logos, Media,Footer} from "../components";
 import "./../App.css";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <Logos />
-      <Gallery />
+      <Hero /> 
       <Media />
       <Endcard />
+      <Logos />
+      <Footer />
     </div>
   );
 };
