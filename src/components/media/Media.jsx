@@ -24,13 +24,15 @@ const Media = () => {
     return (
       <div className="new-div-yes">
         <img className="icon-new" alt="" src={item.attributes.image }  />
-        <h5> {item.attributes.news}</h5>
+        <h5><b>{item.attributes.news}</b> </h5>
       </div>
     );
   });
   const settings = {
     slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
+    rows: 2,
+    slidesPerRow: 1,
     dots: true,
     arrows: false,
   };
