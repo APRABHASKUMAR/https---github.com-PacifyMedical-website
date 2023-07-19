@@ -23,7 +23,7 @@ const Media = () => {
   const news = allMemes.map((item) => {
     return (
       <div className="new-div-yes">
-        <img className="icon1" alt="" src={item.attributes.image }  />
+        <img className="icon-new" alt="" src={item.attributes.image }  />
         <h5> {item.attributes.news}</h5>
       </div>
     );

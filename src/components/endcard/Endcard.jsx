@@ -30,7 +30,7 @@ const testimonials = allMemes.map(item => {
     <div className="testimonials">
     <div className="group-parent">
           <h5 className="lorem">{item.attributes.blogs}</h5>
-          <div className="design">
+          <div className="design-lmaol">
             <div>
               <b className="dr-name">{item.attributes.author}</b>
               <h6 className="hospital-nameorganization">

@@ -38,42 +38,44 @@ const handleSubmit = async (event) => {
   const result = await response.json();
   console.log(result);}
 }
-  return (
-    <form onSubmit={handleSubmit}>
-      <div className="title-row">
-        Schedule a<span className="stake"> demo</span>.
-      </div>
-      <h6 className="subtext">Note that all the fields are compulsory</h6>
-      <div className="form-row-1">
-        <input type="text" className="schedule" placeholder="Name" onChange={handleChange} value={formData.name}  name="name"/>
-        <input
-          type="text"
-          className="schedule"
-          placeholder="Namemail_example@ge"
-          onChange={handleChange} value={formData.email}name="email"
-        />
-        <input type="text" className="schedule" placeholder="Phone no." onChange={handleChange} value={formData.number}name="number"/>
-      </div>
-      <div className="form-row-1">
-        <textarea
-          className="schedule"
-          placeholder="Organization"
-          id="organisation"
-          onChange={handleChange} value={formData.organization}
-          name="organization"
-        />
-        <textarea
-          className="schedule"
-          placeholder="Your message: "
-          id="message"
-          onChange={handleChange} value={formData.message}
-          name="message"
-        />
-      </div>
-      <input type="submit" id="submit-button" className="submit"/>
-      <button>submit</button>
-    </form>
-  );
+return (
+  <div className="page-bg-orange">
+<form onSubmit={handleSubmit}>
+    <div className="title-row">
+      Schedule a<span className="stake"> Demo</span>.
+    </div>
+    <h6 className="subtext">Note that all the fields are compulsory</h6>
+    <div className="form-row-1">
+      <input type="text" className="schedule" placeholder="Name" onChange={handleChange} value={formData.name}  name="name"/>
+      <input
+        type="text"
+        className="schedule"
+        placeholder="Namemail_example@ge"
+        onChange={handleChange} value={formData.email}name="email"
+      />
+      <input type="text" className="schedule" placeholder="Phone no." onChange={handleChange} value={formData.number}name="number"/>
+    </div>
+    <div className="form-row-1">
+      <textarea
+        className="schedule"
+        placeholder="Organization"
+        id="organisation"
+        onChange={handleChange} value={formData.organization}
+        name="organization"
+      />
+      <textarea
+        className="schedule"
+        placeholder="Your message: "
+        id="message"
+        onChange={handleChange} value={formData.message}
+        name="message"
+      />
+    </div>
+    <input type="submit" id="submit-button" className="submit"/>
+  </form>
+  </div>
+  
+);
 };
 
 export default Demo;
