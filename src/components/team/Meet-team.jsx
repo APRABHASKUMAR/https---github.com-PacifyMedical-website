@@ -1,7 +1,6 @@
 import React from "react";
 import sai from "../../assets/saiprasad.png";
 import ketki from "../../assets/ketki.png";
-import rayyan from "../../assets/rayyan.svg";
 import omkar from "../../assets/omkar.png";
 import bhushan from "../../assets/bhushan.png";
 import shriyog from "../../assets/shriyog.png";
@@ -35,7 +34,7 @@ const Meet_team = () => {
         </div>
 
         <div className="profile">
-          <img alt="" src={rayyan} />
+
           <div className="biodata">
           <span className="name">Rayyan Ramrajkar</span>
             <br />
