@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import scenary from "../../assets/scenary.svg";
+import scenary from "../../assets/scenary.png";
 const About = () => {
   return (
     <div className="About">

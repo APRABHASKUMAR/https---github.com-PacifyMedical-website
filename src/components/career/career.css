@@ -8,7 +8,7 @@
 
 .banner {
   display: inline-block;
-  background: linear-gradient(90deg, #ff9900 66%, transparent 50%);
+  background: linear-gradient(90deg, #FECE44 66%, transparent 50%);
   padding-top: 3rem;
   padding-bottom: 3rem;
 
@@ -36,15 +36,16 @@
   z-index: -1; /* Place the image underneath the text */
 }
 .goals {
-  margin: 2rem 20%;
+  margin: 2rem 5%;
   font-weight: 400;
   font-size: 24px;
   line-height: 150%;
   /* or 36px */
   font-size: var(--font-family);
   letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 7rem;
+  text-align: left;
+  margin-bottom: 5rem;
+  width: 80%;
 }
 
 .career-heading {
@@ -52,13 +53,21 @@
   font-family:  var(--font-family);
   margin-bottom: 2rem;
   letter-spacing: 0.01em;
+  text-align: left;
 }
 
 .image-row-4 {
   display: flex;
   margin-top: 2rem;
+  padding-top: 1rem;
+  background: #FECE44;
+  align-items: center;
 }
-
+.image-row-8 {
+  display: flex;
+  margin-top: 2rem;
+ 
+}
 .random {
   height: 20rem;
   margin-left: 15rem;
@@ -76,7 +85,9 @@
   margin-left: 15rem;
   margin-bottom: 3rem;
 }
-
+.new-part {
+  background: #FECE44;
+}
 .part-2 {
   color: white;
   background: black;
@@ -86,11 +97,13 @@
 }
 .open {
   margin-left: 8rem;
+  color: white;
 }
 .career-content {
   font-size: 1rem;
   font-weight: 400;
   font-family: var(--font-family);
+  text-align: left;
 }
 
 .engineering {

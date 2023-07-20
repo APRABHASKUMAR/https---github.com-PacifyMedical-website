@@ -1,8 +1,16 @@
 .page {
     padding: 3rem 8rem;
 }
+.new-page {
+    padding: 3rem 8rem;
+    background: #FECE44;
+}
 @media screen and (max-width: 790px) {
     .page {
         padding: 1rem 2rem;
+    }
+    .new-page {
+        padding: 1rem 2rem;
+        background: #FECE44;
     }
 }

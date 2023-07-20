@@ -1,10 +1,14 @@
 import React from "react";
-import {About } from "../components";
+import {About,Meet_team,Recog} from "../components";
 import "./../App.css";
 const About_us = () => {
   return (
     <div>
       <About />
+      
+       <Meet_team />
+    
+      <Recog />
     </div>
   );
 };

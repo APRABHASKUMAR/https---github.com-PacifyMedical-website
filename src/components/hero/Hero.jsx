@@ -10,8 +10,19 @@ const Hero = () => {
     <div className="App">
       <div style={{ position: "relative",  justifyContent: "flex-end" }}>
       
-      <YoutubeEmbed embedId="28EqIRPx_x0" />
-      <img src={design} alt="" className="design" style={{ position: "absolute", top: 0, left: 0,  marginLeft: "auto" }}/>
+      <YoutubeEmbed embedId="MgSy6xxQoDg" />
+      <img src={design} alt="" className="design" style={{ position: "absolute", top: 0, right: 0,}}/>
+      <h1 className="video-heading" style={{ position: "absolute", top: 15, right: 50,}}>
+      Pacify Medical     
+     
+
+      </h1>
+      <h1 className="video-text" style={{ position: "absolute", top: 75, right: 10,}}>
+      Empowering Surgeons to<br /> Treat Wounds Better
+   
+     
+
+      </h1>
       </div>
       
       <h2 className="hero_title">

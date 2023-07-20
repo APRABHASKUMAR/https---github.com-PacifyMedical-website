@@ -1,13 +1,17 @@
 import React from "react";
-import sai from "../../assets/Saiprasad.svg";
-import anmol from "../../assets/Anmol.svg";
-import rayyan from "../../assets/Rayyan.svg";
+import sai from "../../assets/saiprasad.png";
+import ketki from "../../assets/ketki.png";
+import rayyan from "../../assets/rayyan.svg";
+import omkar from "../../assets/omkar.png";
+import bhushan from "../../assets/bhushan.png";
+import shriyog from "../../assets/shriyog.png";
 import linkedin from "../../assets/linkedin.svg";
 
 import "./meet-team.css";
 const Meet_team = () => {
   return (
     <div className="team-main-div">
+      <div className="team-profile">
       <h2 className="title-row">
         Meet our
         <span className="stake"> Team</span>.
@@ -31,26 +35,9 @@ const Meet_team = () => {
         </div>
 
         <div className="profile">
-          <img alt="" src={anmol} />
-          <div className="biodata">
-            <span className="name">Anmol Zimare</span>
-
-            <br />
-            <span className="position">CTO</span>
-            <br />
-            <span className="field"> Product & Regulatory</span>
-            <a
-              href="https://www.linkedin.com/in/anmolzimare/?originalSubdomain=in"
-              target="_blank"
-            >
-              <img alt="" src={linkedin} className="team-linkedin" />
-            </a>
-          </div>
-        </div>
-        <div className="profile">
           <img alt="" src={rayyan} />
           <div className="biodata">
-            <span className="name">Rayyan Ramrajkar</span>
+          <span className="name">Rayyan Ramrajkar</span>
             <br />
             <span className="position">Design Engineer</span>
             <br />
@@ -63,7 +50,79 @@ const Meet_team = () => {
             </a>
           </div>
         </div>
+        <div className="profile">
+          <img alt="" src={omkar} />
+          <div className="biodata">
+            <span className="name">Omkar Kadam</span>
+            <br />
+            <span className="position">Design Engineer</span>
+            <br />
+            <span className="field">Production Lead</span>
+            <a
+              href="https://www.linkedin.com/in/rayyan-ramrajkar/?originalSubdomain=in"
+              target="_blank"
+            >
+              <img alt="" src={linkedin} className="team-linkedin" />
+            </a>
+          </div>
+        </div>
       </div>
+      <div className="profile-row">
+        <div className="profile">
+          <img alt="" src={bhushan} />
+          <div className="biodata">
+            <span className="name">Bhushan Mahajan</span>
+            <br />
+            <span className="position">Design Engineer</span>
+            <br />
+            <span className="field">Design Lead</span>
+            <a
+              href="https://www.linkedin.com/in/saiprasadp/?originalSubdomain=in"
+              target="_blank"
+            >
+              <img alt="" src={linkedin} className="team-linkedin" />
+            </a>
+          </div>
+        </div>
+
+        <div className="profile">
+          <img alt="" src={ketki} />
+          <div className="biodata">
+            <span className="name">Ketki Venpure</span>
+
+            <br />
+            <span className="position">Industrial Designer</span>
+            <br />
+            <span className="field">Industrial Design Lead</span>
+            <a
+              href="https://www.linkedin.com/in/anmolzimare/?originalSubdomain=in"
+              target="_blank"
+            >
+              <img alt="" src={linkedin} className="team-linkedin" />
+            </a>
+          </div>
+        </div>
+        <div className="profile">
+          <img alt="" src={shriyog} />
+          <div className="biodata">
+            <span className="name">Shriyog Jambekar</span>
+            <br />
+            <span className="position">Electronic Engineer</span>
+            <br />
+            <span className="field">Electronic Lead</span>
+            <a
+              href="https://www.linkedin.com/in/rayyan-ramrajkar/?originalSubdomain=in"
+              target="_blank"
+            >
+              <img alt="" src={linkedin} className="team-linkedin" />
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div className="main-div">
+        
+      
       <h2 className="title-row">
         Expert
         <span className="stake"> Network</span>.
@@ -122,6 +181,7 @@ const Meet_team = () => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -1,17 +1,24 @@
 .profile-row {
   display: flex;
-  padding: 2rem 0rem 5% 0rem;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
+.team-profile{
+  padding: 3rem 8rem;
+}
 .profile > img {
   width: 100%;
   margin: 0 0 2rem 0rem;
 }
-
+.main-div{
+  padding: 3rem 8rem;
+}
 .profile {
   margin: 0 5%;
 }
-
+.team-profile {
+  background: #FECE44;
+}
 .name {
   font-family: var(--new-font-family);
   font-weight: 600;

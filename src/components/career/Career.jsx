@@ -4,7 +4,7 @@ import random from "../../assets/random.svg";
 import raise_hand from "../../assets/raise-hand.svg";
 import banner from "../../assets/banner-image.svg";
 import hammer from "../../assets/hammer.svg";
-const baseUrl = 'https://saishm.pythonanywhere.com';
+const baseUrl = 'https://pacifym.pythonanywhere.com';
 const Career = () => {
 const [allMemes, setAllMemes] = React.useState([])
 const [meme, setMeme] = React.useState({
@@ -65,7 +65,7 @@ const [meme, setMeme] = React.useState({
       <h5 className="goals">
       We’re a mission-driven team and it’s the dedication to our work that inspires us to take on complex healthcare challenges. It’s also what draws great talent. You can't solve challenges without failing and getting your hands dirty. And the best way to learn and improve for us has been to just do the work.
       </h5>
-      <div className="image-row-4">
+      <div className="image-row-8">
             <img className="random" alt="" src={random} />
           
 
@@ -102,10 +102,9 @@ const [meme, setMeme] = React.useState({
 
           </div>
         </div>
-        <div className="image-row-4">
-           
-          
-
+      
+        <div className="image-row-4">                
+        
           <div className="fit-text">
           {!matches && <img className="random" alt="" src={random} />}
             <h5 className = "career-heading">
@@ -141,7 +140,8 @@ const [meme, setMeme] = React.useState({
           </div>
           {matches && <img className="random" alt="" src={random} />}
         </div>
-        <div className="image-row-4">
+
+        <div className="image-row-8">
             <img className="random" alt="" src={random} />
           
 
@@ -171,6 +171,9 @@ const [meme, setMeme] = React.useState({
             </h5>
           </div>
         </div>
+        <div className="new-part">
+
+        
         <div className="part-2">
             <h3 className="open">
             Open positions
@@ -181,6 +184,7 @@ const [meme, setMeme] = React.useState({
         </h4>
         
         {postings}
+        </div>
     </div>
   );
 };

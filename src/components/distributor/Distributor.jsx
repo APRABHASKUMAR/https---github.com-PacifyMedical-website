@@ -1,7 +1,7 @@
 import React from "react";
 import dist from "../../assets/distributor-image.svg";
 import "./distributor.css";
-const baseUrl = "https://saishm.pythonanywhere.com";
+const baseUrl = "https://pacifym.pythonanywhere.com";
 const Distributor = () => {
   const [formData, setFormData] = React.useState({
     personalname: "",

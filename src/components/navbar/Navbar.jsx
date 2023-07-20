@@ -17,15 +17,11 @@ const Navbar = () => {
       </Link>
 
       <div className="pacify_navbar-links_container">
+     
         <p>
-          <Link to="/research">Research</Link>
+          <Link to="/about">Company</Link>
         </p>
-        <p>
-          <Link to="/about">About Us</Link>
-        </p>
-        <p>
-          <Link to="/team">Team</Link>
-        </p>
+    
         <div class="dropdown">
           <p class="dropbtn">
             Contact Us
@@ -41,16 +37,7 @@ const Navbar = () => {
         <p>
           <Link to="/products">Products</Link>
         </p>
-        <p>
-          <Link to="/recognition">
-            Recognition <br /> & Awards
-          </Link>
-        </p>
-        <p>
-          <Link to="/stakeholders">
-            Stakeholder's <br /> benefits
-          </Link>
-        </p>
+   
       </div>
       <div className="pacify-menu">
         {toggleMenu ? (
@@ -69,15 +56,11 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="menu-container">
             <div className="menu-links">
+            
               <p>
-                <Link to="/research">Research</Link>
+                <Link to="/about">Company</Link>
               </p>
-              <p>
-                <Link to="/about">About Us</Link>
-              </p>
-              <p>
-                <Link to="/team">Team</Link>
-              </p>
+           
               <p>
                 <Link to="/careers">Careers</Link>
               </p>
@@ -94,16 +77,7 @@ const Navbar = () => {
               <p>
                 <Link to="/products">Products</Link>
               </p>
-              <p>
-                <Link to="/recognition">
-                  Recognition <br /> & Awards
-                </Link>
-              </p>
-              <p>
-                <Link to="/stakeholders">
-                  Stakeholder's <br /> benefits
-                </Link>
-              </p>
+
             </div>
           </div>
         )}

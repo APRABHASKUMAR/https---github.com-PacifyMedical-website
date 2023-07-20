@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./logos.css"
-const baseUrl = "https://saishm.pythonanywhere.com";
+const baseUrl = "https://pacifym.pythonanywhere.com";
 
 const Logos = () => {
   const [allMemes, setAllMemes] = React.useState([]);

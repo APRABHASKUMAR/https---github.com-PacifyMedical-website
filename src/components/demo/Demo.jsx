@@ -1,6 +1,6 @@
 import React from "react";
 import "./demo.css";
-const baseUrl = 'https://saishm.pythonanywhere.com';
+const baseUrl = 'https://pacifym.pythonanywhere.com';
 const Demo = () => {
   const [formData, setFormData] = React.useState(
     {
@@ -37,6 +37,7 @@ const handleSubmit = async (event) => {
   });
   const result = await response.json();
   console.log(result);}
+  event.target.reset();
 }
 return (
   <div className="page-bg-orange">

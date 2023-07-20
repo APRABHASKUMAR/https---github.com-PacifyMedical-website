@@ -1,6 +1,6 @@
 import React from 'react'
 import "./write-to-us.css"
-const baseUrl = 'https://saishm.pythonanywhere.com';
+const baseUrl = 'https://pacifym.pythonanywhere.com';
 
 const Demo = () => {
   const [formData, setFormData] = React.useState(
@@ -29,7 +29,7 @@ const handleSubmit = async (event) => {
   alert("PLease fill all the compulsory details");
  }
  else
-  {const response = await fetch(`${baseUrl}/democontact/`, {
+  {const response = await fetch(`${baseUrl}/wcontact/`, {
     method: 'POST',
     headers: {
       "Content-type": "application/json"

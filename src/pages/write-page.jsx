@@ -1,15 +1,14 @@
 import React from "react";
-import './stakeholders.css'
-import {Write} from "../components";
+import "./stakeholders.css";
+import { Write, Footer } from "../components";
 import "./../App.css";
 const Write_page = () => {
   return (
     <div>
-<div className="page">
-<Write />
-</div>
-     
-      
+      <div className="page">
+        <Write />
+        <Footer />
+      </div>
     </div>
   );
 };

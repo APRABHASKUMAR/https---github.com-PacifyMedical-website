@@ -12,6 +12,17 @@
     padding: 1.2rem 0;
     text-align: left;
 }
+.logos-row {
+    display: flex;
+    margin-top: 0.7rem;
+}
+.yt{
+    margin: 0;
+}
+.linktwit {
+    margin: 0 1.4rem 0 0;
+    width: 1.3rem;
+}
 .address{
     text-align: left;
     font-size: 0.7rem;

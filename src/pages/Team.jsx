@@ -1,11 +1,11 @@
 import React from "react";
-//import './stakeholders.css'
+import './stakeholders.css'
 import {Meet_team } from "../components";
 import "./../App.css";
 const Team = () => {
   return (
     <div>
-      <div className="page">
+      <div className="new">
        <Meet_team />
       </div>
     </div>

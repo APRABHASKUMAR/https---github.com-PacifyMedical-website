@@ -17,9 +17,18 @@
   font-size: 1.6rem;
   font-family:  var(--font-family);
 }
+.video-text {
+  text-align: right;
+  font-size: 2rem;
+
+}
+.video-heading {
+  text-align: center;
+  font-size: 2.7rem;
+}
 .design {
   height: 91%;
-  padding-left: 57rem;
+  margin: 0;
 }
 .group-div {
   display: flex;
@@ -43,7 +52,11 @@
   background: #FFF4E3;
   box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.27);
   border-radius: 0.625rem;
+  transition: transform 0.2s ease;
 
+}
+.easy:hover,.hospital:hover,.surgery:hover {
+  transform: translateY(-10px);
 }
 .group-div-heading{
   font-size: 1.1rem;
@@ -71,7 +84,12 @@
 margin-right: 2rem;
 padding-bottom: 1rem;
 background:white;
+transition: transform 0.2s ease;
 
+}
+
+.product-widget:hover {
+  transform: translateY(-15px);
 }
 .our-products{
   background: #FECE44;

@@ -1,11 +1,16 @@
 import React from "react";
-import {Product} from "../components";
+import {Product, Advantages, Benenfits, Research,Footer } from "../components";
 import "./../App.css";
 const Products_page = () => {
   return (
     <div>
      <Product />
-      
+     <Advantages />
+        <div className="page">
+        <Benenfits />
+        </div>
+        <Research />
+        <Footer />
     </div>
   );
 };

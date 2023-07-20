@@ -7,7 +7,7 @@ import twitter  from "../../assets/twitter.svg";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-const baseUrl = "https://saishm.pythonanywhere.com";
+const baseUrl = "https://pacifym.pythonanywhere.com";
 
 const Endcard = () => {
   const [allMemes, setAllMemes] = React.useState([])

@@ -36,42 +36,7 @@ const Research = () => {
           </div>
         </div>
       </div>
-
-      <div className="view-all-parent">
-        <div className="view-all">{`View all `}</div>
-        <img className="icon" alt="" src={icon} />
-      </div>
-      <div className="title-row">Newsroom.</div>
-      <div className="blog-parent">
-        <div className="blog-item">
-          <div className="blog-title">Blog Title</div>
-          <div className="blog-context">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-          <div className="news-context">
-          24 June 2022
-          </div>
-        </div>
-        <div className="blog-item">
-          <div className="blog-title">Blog Title</div>
-          <div className="blog-context">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-          <div className="news-context">
-          24 June 2022
-          </div>
-        </div>
-        <div className="blog-item">
-          <div className="blog-title">Blog Title</div>
-          <div className="blog-context">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-          <div className="news-context" color="#FF9900">
-          24 June 2022
-          </div>
-        </div>
-      </div>
-      <div className="title-row">Literature.</div>
+      
 
       {/*   </div>
       <div className="group-div">
