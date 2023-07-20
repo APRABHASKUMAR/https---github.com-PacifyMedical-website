@@ -1,14 +1,8 @@
 
 .logo-image {
-  display: inline !important;
-  width: 24% !important;
+  width: 7rem !important;
 }
-.slick-slide .image {
-  object-fit: cover;
-  border-radius: 2px;
-  min-width: 150px !important;
-  width: 1rem !important;
-}
+
 
 .slider-1{
   margin-left: 12rem;

@@ -80,10 +80,17 @@
   font-family: var(--font-family);
   margin: 0.8rem 0;
   line-height: 150%;
+  text-align: left;
 }
 .fit-text {
   margin-left: 15rem;
   margin-bottom: 3rem;
+}
+.extra-footer {
+  text-align: left;
+  margin-left: 5rem;
+  font-weight: 500;
+
 }
 .new-part {
   background: #FECE44;
@@ -132,7 +139,8 @@
 
 .location-button {
   display: inline-block;
-  background: #fcb040;
+  background: #000;
+  color: #FECE44;
   padding: 0.4rem 0.8rem;
   margin-right: 1rem;
 }

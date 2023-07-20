@@ -43,9 +43,6 @@ const [meme, setMeme] = React.useState({
           <div className="location-button">
           {item.attributes.location}
           </div>
-          <h5 className="date-time">
-          {item.attributes.details}
-          </h5>
 
       </div>
   </div>
@@ -184,6 +181,14 @@ const [meme, setMeme] = React.useState({
         </h4>
         
         {postings}
+        <h5 className="extra-footer">
+        Just fill out the below for other postions <br />
+Google form - <b><a href="https://forms.gle/ATZH11E2BZpi7mdi6" target="_blank">https://forms.gle/ATZH11E2BZpi7mdi6</a></b> 
+<br />
+<br />
+How do you fit in with us and we will get in touch with you.<br />
+Send along links that best showcase the relevant things you've built and done.
+        </h5>
         </div>
     </div>
   );

@@ -72,6 +72,7 @@ return (
         name="message"
       />
     </div>
+    <input type="text" className="schedule" placeholder="how did you get to know about us?" onChange={handleChange} value={formData.how}  name="how"/>
     <input type="submit" id="submit-button" className="submit"/>
   </form>
   </div>

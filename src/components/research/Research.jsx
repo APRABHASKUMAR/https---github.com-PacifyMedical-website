@@ -1,20 +1,50 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./research.css";
 import research_image from "../../assets/research-image.svg";
 import cool_pic from "../../assets/cool-pic.svg";
-import icon from "../../assets/Icon.svg";
+const baseUrl = 'https://pacifym.pythonanywhere.com';
 const Research = () => {
+  const [allMemes, setAllMemes] = React.useState([])
+const [meme, setMeme] = React.useState({
+  name: "",
+  pdfurl: "",
+})
+  const [matches, setMatches] = useState(
+    window.matchMedia("(min-width: 800px)").matches
+  );
+  React.useEffect(() => {
+    async function getMemes() {
+        const res = await fetch(`${baseUrl}/literatureurl/`)
+        const data = await res.json()
+        setAllMemes(data.data)
+        console.log(data.data[0])
+    }
+    getMemes()
+}, [])
+
+  useEffect(() => {
+    window
+    .matchMedia("(min-width: 768px)")
+    .addEventListener('change', e => setMatches( e.matches ));
+  }, []);
+  const postings = allMemes.map(item => {
+    return (
+      <div className="blog-item">
+      <div className="blog-title">{item.attributes.name}</div>
+      <div className="blog-context">
+      {item.attributes.pdfurl}
+      </div>
+    </div>
+    )
+})   
   return (
     <div className="research">
       <h1 className="title-row">
-        Recent
-        <span className="stake"> Blogs</span>.
+        Literature
       </h1>
       <div className="blog-parent">
         <div className="blog-item">
-          <img className="blog-image" alt="" src={research_image} />
           <div className="blog-title">Blog Title</div>
-          <img className="cool-image" alt="" src={cool_pic} />
           <div className="blog-context">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>

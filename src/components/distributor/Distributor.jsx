@@ -19,6 +19,7 @@ const Distributor = () => {
     question: "",
     speciality: "",
     personalphone: "",
+    how: ""
   });
   function handleChange(event) {
     const { name, value } = event.target;
@@ -226,9 +227,12 @@ const Distributor = () => {
               name="speciality"
             />
           </div>
+      <input type="text" className="schedule" placeholder="how did you get to know about us?" onChange={handleChange} value={formData.how}  name="how"/>
+
         </div>
       </div>
       </div>
+     
       <input type="submit" id="submit-button" className="submit" />
     </form>
   );

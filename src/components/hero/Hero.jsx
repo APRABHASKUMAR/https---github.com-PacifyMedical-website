@@ -12,16 +12,14 @@ const Hero = () => {
       
       <YoutubeEmbed embedId="MgSy6xxQoDg" />
       <img src={design} alt="" className="design" style={{ position: "absolute", top: 0, right: 0,}}/>
-      <h1 className="video-heading" style={{ position: "absolute", top: 15, right: 50,}}>
-      Pacify Medical     
-     
-
-      </h1>
-      <h1 className="video-text" style={{ position: "absolute", top: 75, right: 10,}}>
+      <h1 className="video-text" style={{ position: "absolute", top: 25, right: 10,}}>
       Empowering Surgeons to<br /> Treat Wounds Better
-   
-     
-
+      </h1>
+      <h1 className="video-subtext" style={{ position: "absolute", top: 105, right: 30,}}>
+      Pacify Medical empowers surgeons through<br />
+       innovative technology of spraying skin there by <br />
+        advancing the standard of care for wound healing.<br />
+         Currently at clinical validation stage.
       </h1>
       </div>
       
@@ -73,6 +71,7 @@ const Hero = () => {
             <img src={ssg} alt="" className="home-img" />
             <div className="widget-text">
             <h1 className="group-div-heading">Spray Gun</h1>
+            <h5 className="subtext-mew">Tissue dispensing device </h5>
             <ul>
               <li>
                 <p>Uniform spray pattern</p>
@@ -90,6 +89,7 @@ const Hero = () => {
             <img src={dermadice} alt="" className="home-img" />
             <div className="widget-text">
             <h1 className="group-div-heading">Dermadice</h1>
+            <h5 className="subtext-mew">Device for micrografting </h5>
             <ul>
               <li>
                 <p>Fully portable Mechanical device</p>
