@@ -2,6 +2,9 @@ import React, {useState, useEffect} from "react";
 import "./research.css";
 import research_image from "../../assets/research-image.svg";
 import cool_pic from "../../assets/cool-pic.svg";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 const baseUrl = 'https://pacifym.pythonanywhere.com';
 const Research = () => {
   const [allMemes, setAllMemes] = React.useState([])
@@ -36,37 +39,25 @@ const [meme, setMeme] = React.useState({
       </div>
     </div>
     )
-})   
+    
+})  
+const settings = {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: false
+}; 
   return (
     <div className="research">
       <h1 className="title-row">
         Literature
       </h1>
-      <div className="blog-parent">
-        <div className="blog-item">
-          <div className="blog-title">Blog Title</div>
-          <div className="blog-context">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        </div>
-        <div className="blog-item">
-          <img className="blog-image" alt="" src={research_image} />
-          <div className="blog-title">Blog Title</div>
-          <img className="cool-image" alt="" src={cool_pic} />
-          <div className="blog-context">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        </div>
-        <div className="blog-item">
-          <img className="blog-image" alt="" src={research_image} />
-          <div className="blog-title">Blog Title</div>
-          <img className="cool-image" alt="" src={cool_pic} />
-          <div className="blog-context">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
-        </div>
-      </div>
       
+      <div className="slider">
+      <Slider {...settings}>
+        {postings}
+    </Slider>
+      </div>
 
       {/*   </div>
       <div className="group-div">

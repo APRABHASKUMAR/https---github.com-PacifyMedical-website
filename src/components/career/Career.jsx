@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./career.css";
 import random from "../../assets/random.svg";
-import raise_hand from "../../assets/raise-hand.svg";
 import banner from "../../assets/banner-image.svg";
 import hammer from "../../assets/hammer.svg";
 const baseUrl = 'https://pacifym.pythonanywhere.com';
