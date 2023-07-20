@@ -32,10 +32,8 @@ const testimonials = allMemes.map(item => {
           <h5 className="lorem">{item.attributes.blogs}</h5>
           <div className="design-lmaol">
             <div>
-              <b className="dr-name">{item.attributes.author}</b>
-              <h6 className="hospital-nameorganization">
-              {item.attributes.heading}
-              </h6>
+              <h5 className="dr-name">{item.attributes.author}</h5>
+            
             </div>
             <img className="group-child-design" alt="" src={testimonial} />
           </div>
@@ -54,7 +52,7 @@ const settings = {
     <div className="endcard-1">
       <div className="test-carousel">
       <div className="title">
-        <b className="what-people-say">What people say about us</b>
+        <b className="what-people-say">What Surgeon's say about us</b>
       </div>
       <div className="slider">
       <Slider {...settings}>

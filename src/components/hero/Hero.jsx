@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
       
       <h2 className="hero_title">
-        Next-generation wound care solutions built for hospital and doctor's
+        Next-generation wound care solutions built for hospital's and doctor's
         requirement
       </h2>
       <div className="group-div">
@@ -92,7 +92,7 @@ const Hero = () => {
                 <p>Fully portable Mechanical device</p>
               </li>
               <li>
-                <p>1MM² uniform size micrografts</p>
+                <p>Uniform size micrografts</p>
               </li>
               <li>
                 <p> Any size skin fragment can be used</p>

@@ -34,7 +34,7 @@ const Logos = () => {
   });
   return (
     <div className="logos">
-     <h1 className="title">Logos</h1>
+     <h1 className="title">Supported by global organization</h1>
      <div className="slider-1">
         <Slider {...settings}>{logos}</Slider>
       </div>

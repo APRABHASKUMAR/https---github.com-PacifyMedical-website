@@ -17,11 +17,12 @@ const Navbar = () => {
       </Link>
 
       <div className="pacify_navbar-links_container">
-     
         <p>
           <Link to="/about">Company</Link>
         </p>
-    
+        <p>
+          <Link to="/products">Products</Link>
+        </p>
         <div class="dropdown">
           <p class="dropbtn">
             Contact Us
@@ -34,10 +35,6 @@ const Navbar = () => {
             <Link to="/write-to-us">Write to us</Link>
           </div>
         </div>
-        <p>
-          <Link to="/products">Products</Link>
-        </p>
-   
       </div>
       <div className="pacify-menu">
         {toggleMenu ? (
@@ -56,11 +53,10 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="menu-container">
             <div className="menu-links">
-            
               <p>
                 <Link to="/about">Company</Link>
               </p>
-           
+
               <p>
                 <Link to="/careers">Careers</Link>
               </p>
@@ -77,7 +73,6 @@ const Navbar = () => {
               <p>
                 <Link to="/products">Products</Link>
               </p>
-
             </div>
           </div>
         )}
