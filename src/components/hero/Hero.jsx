@@ -15,7 +15,7 @@ const Hero = () => {
       <h1 className="video-text" style={{ position: "absolute", top: 25, right: 10,}}>
       Empowering Surgeons to<br /> Treat Wounds Better
       </h1>
-      <h1 className="video-subtext" style={{ position: "absolute", top: 105, right: 30,}}>
+      <h1 className="video-subtext" style={{ position: "absolute", top: 105, right: 10,}}>
       Pacify Medical empowers surgeons through<br />
        innovative technology of spraying skin there by <br />
         advancing the standard of care for wound healing.<br />
@@ -54,17 +54,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="know-more-parent">
-        <div className="know-more">Know more</div>
-        <img className="icon" alt="" src={icon} />
-      </div>
+
       .
       <div className="our-products">
         <h1
           className="title-1
           "
         >
-          Our Proucts
+          Our Products
         </h1>
         <div className="product-row">
           <div className="product-widget">
