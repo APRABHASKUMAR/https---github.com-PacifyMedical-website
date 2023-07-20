@@ -13,7 +13,7 @@ const Hero = () => {
       <YoutubeEmbed embedId="MgSy6xxQoDg" />
       <img src={design} alt="" className="design" style={{ position: "absolute", top: 0, right: 0,}}/>
       <h1 className="video-text" style={{ position: "absolute", top: 25, right: 10,}}>
-      Empowering Surgeons to<br /> Treat Wounds Better
+      Empowering Surgeons<br />  to Treat Wounds Better
       </h1>
       <h1 className="video-subtext" style={{ position: "absolute", top: 105, right: 10,}}>
       Pacify Medical empowers surgeons through<br />
