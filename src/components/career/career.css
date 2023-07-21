@@ -156,18 +156,31 @@
 }
 
 @media screen and (max-width: 790px) {
+  .goals {
+    margin: 2rem 1%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    font-size: var(--font-family);
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 5rem;
+    width: 80%;
+  }
+  .white-text {
+    color: black;
+  }
   .banner {
     display: inline-block;
-    background: linear-gradient(90deg, #ff9900 74%, transparent 10%);
     padding-top: 3rem;
     padding-bottom: 3rem;
-
     position: relative;
   }
   .banner-text {
     font-size: 1.9rem;
     font-family:  var(--font-family);
     text-align: start;
+    color: #000;
     margin-left: 2rem;
     z-index: 1;
   }
