@@ -1,9 +1,6 @@
 import React from "react";
 import "./endcard.css";
 import testimonial from "../../assets/testimonial.svg";
-import logo from "../../assets/logo.svg";
-import linkedin from "../../assets/linkedin.svg";
-import twitter  from "../../assets/twitter.svg";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'

@@ -8,7 +8,7 @@ const About_us = () => {
       
        <Meet_team />
     
-      <Recog />
+
     </div>
   );
 };

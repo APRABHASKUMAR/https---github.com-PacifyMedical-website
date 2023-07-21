@@ -8,6 +8,8 @@
     font-family:  var(--font-family);
     margin-bottom: 1.5rem;
     font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #fcb040;
 
 }
 

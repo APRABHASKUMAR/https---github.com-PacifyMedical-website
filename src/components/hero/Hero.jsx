@@ -4,23 +4,32 @@ import YoutubeEmbed from "./YoutubeEmbed";
 import icon from "../../assets/Icon.svg";
 import dermadice from "../../assets/dermadice.svg";
 import ssg from "../../assets/ssgnew.svg";
-import design from "../../assets/edited.png";
+import home from "../../assets/home-image.png";
+import play from "../../assets/play-vid.svg";
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="App">
-      <div style={{ position: "relative",  justifyContent: "flex-end" }}>
-      
-      <YoutubeEmbed embedId="MgSy6xxQoDg" />
-      <img src={design} alt="" className="design" style={{ position: "absolute", top: 0, right: 0,}}/>
-      <h1 className="video-text" style={{ position: "absolute", top: 25, right: 10,}}>
-      Empowering Surgeons<br />  to Treat Wounds Better
-      </h1>
-      <h1 className="video-subtext" style={{ position: "absolute", top: 105, right: 10,}}>
-      Pacify Medical empowers surgeons through<br />
-       innovative technology of spraying skin there by <br />
-        advancing the standard of care for wound healing.<br />
-         Currently at clinical validation stage.
-      </h1>
+      <div className="hero-image-lol">
+        <img src={home} alt="" className="home-img" />
+        <div className="texts-bohot-sara">
+          <h1 className="video-text">
+            Empowering Surgeons
+            <br /> to Treat Wounds Better
+          </h1>
+          <h1 className="video-subtext">
+            Pacify Medical empowers surgeons through innovative technology of
+            spraying skin there by advancing the standard of care for wound
+            healing. Currently at clinical validation stage.
+          </h1>
+          <a href="https://www.youtube.com/watch?v=MgSy6xxQoDg" target="_blank">
+          <div className="watch-story">
+            <img src={play} alt="" className="play" />
+           <h5> <b>Watch Our Story </b></h5>
+          </div>
+          </a>
+        </div>
+        
       </div>
       
       <h2 className="hero_title">
@@ -54,7 +63,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
       .
       <div className="our-products">
         <h1
@@ -67,40 +75,46 @@ const Hero = () => {
           <div className="product-widget">
             <img src={ssg} alt="" className="home-img" />
             <div className="widget-text">
-            <h1 className="group-div-heading">Spray Gun</h1>
-            <h5 className="subtext-mew">Tissue dispensing device </h5>
-            <ul>
-              <li>
-                <p>Uniform spray pattern</p>
-              </li>
-              <li>
-                <p>Higher expansion ratio</p>
-              </li>
-              <li>
-                <p>Easy to use portable device</p>
-              </li>
-            </ul>
-          </div>
+              <h1 className="group-div-heading">Spray Gun</h1>
+              <h5 className="subtext-mew">Tissue dispensing device </h5>
+              <ul>
+                <li>
+                  <p>Uniform spray pattern</p>
+                </li>
+                <li>
+                  <p>Higher expansion ratio</p>
+                </li>
+                <li>
+                  <p>Easy to use portable device</p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="product-widget">
             <img src={dermadice} alt="" className="home-img" />
             <div className="widget-text">
-            <h1 className="group-div-heading">Dermadice</h1>
-            <h5 className="subtext-mew">Device for micrografting </h5>
-            <ul>
-              <li>
-                <p>Fully portable Mechanical device</p>
-              </li>
-              <li>
-                <p>Uniform size micrografts</p>
-              </li>
-              <li>
-                <p> Any size skin fragment can be used</p>
-              </li>
-            </ul>
-          </div>
+              <h1 className="group-div-heading">Dermadice</h1>
+              <h5 className="subtext-mew">Device for micrografting </h5>
+              <ul>
+                <li>
+                  <p>Fully portable Mechanical device</p>
+                </li>
+                <li>
+                  <p>Uniform size micrografts</p>
+                </li>
+                <li>
+                  <p> Any size skin fragment can be used</p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+        <Link to="/products">
+          <div className="know-more-parent">
+            <div className="know-more">Know more</div>
+            <img className="icon" alt="" src={icon} />
+          </div>
+        </Link>
       </div>
     </div>
   );

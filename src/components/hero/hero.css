@@ -19,13 +19,33 @@
 }
 .video-text {
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   font-family:  var(--font-family);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.watch-story {
+  background: white;
+  display: inline-flex ;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+.play {
+  margin: 0 1rem  0 1rem;
+  width: 15%;
 }
 .video-subtext {
   text-align: left;
-  font-size: 0.72rem;
+  font-size: 1.1rem;
   font-family:  var(--font-family);
+  font-style: normal;
+font-weight: 300;
+line-height: 150%;
+padding-right: 13rem;
 }
 
 .subtext-mew {
@@ -120,9 +140,23 @@ transition: transform 0.2s ease;
   justify-content: space-between;
   margin: 1rem 15rem;
 }
+.hero-image-lol{
+  background: #FECE44;
+  display: flex;
+  margin-bottom: 3rem;
+}
 .home-img{
-  width: 100%;
-  margin: 0 0 1rem 0;
+  width: 58%;
+  
+  margin:0;
+}
+.texts-bohot-sara {
+  margin-left: 8rem;
+   margin-top: 6rem;
+   margin-bottom: 4rem;
+}
+.employee {
+  background: linear-gradient(180deg, #FECE44 30%, #FFFFFF 0%);
 }
 .title-1 {
   font-size: 1.4rem;
