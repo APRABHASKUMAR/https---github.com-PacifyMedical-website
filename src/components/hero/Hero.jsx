@@ -47,9 +47,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="surgery">
-          <h1 className="group-div-heading">Reduced surgery time</h1>
+          <h1 className="group-div-heading">Reduce surgery time</h1>
           <div className="group-div-content">
-            Structure approach to
+           Will
             <span className="reducing"> reduce </span>
             the procedure time.
           </div>
@@ -57,7 +57,7 @@ const Hero = () => {
         <div className="hospital">
           <h1 className="group-div-heading">Reduce hospital stay</h1>
           <div className="group-div-content">
-            The solution aid in healing thereby
+            Will help in
             <span className="reducing"> reducing </span>
             the hospital stay
           </div>
@@ -73,7 +73,7 @@ const Hero = () => {
         </h1>
         <div className="product-row">
           <div className="product-widget">
-            <img src={ssg} alt="" className="home-img" />
+            <img src={ssg} alt="" className="home-imge" />
             <div className="widget-text">
               <h1 className="group-div-heading">Spray Gun</h1>
               <h5 className="subtext-mew">Tissue dispensing device </h5>
@@ -82,7 +82,7 @@ const Hero = () => {
                   <p>Uniform spray pattern</p>
                 </li>
                 <li>
-                  <p>Higher expansion ratio</p>
+                  <p>Better expansion ratio</p>
                 </li>
                 <li>
                   <p>Easy to use portable device</p>
@@ -91,7 +91,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="product-widget">
-            <img src={dermadice} alt="" className="home-img" />
+            <img src={dermadice} alt="" className="home-imge" />
             <div className="widget-text">
               <h1 className="group-div-heading">Dermadice</h1>
               <h5 className="subtext-mew">Device for micrografting </h5>

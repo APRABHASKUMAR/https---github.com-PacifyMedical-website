@@ -50,7 +50,7 @@ const settings = {
   return (
     <div className="research">
       <h1 className="title-row">
-        Literature
+       Reference Literature
       </h1>
       
       <div className="slider">

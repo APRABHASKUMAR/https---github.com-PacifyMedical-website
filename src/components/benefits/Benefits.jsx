@@ -1,9 +1,9 @@
 import React from "react";
 import "./benefits.css";
 import horizontal from "../../assets/horizontal.svg";
-import vertical from "../../assets/vertical.svg";
-import hospital from "../../assets/hospital.svg";
-import patient from "../../assets/patient.svg";
+import surg from "../../assets/surg.png";
+import hosp from "../../assets/hosp.png";
+import pati from "../../assets/pati.png";
 const Benefits = () => {
   return (
     <div>
@@ -16,8 +16,8 @@ const Benefits = () => {
         </h3>
         <div className="image-row-hurt">
           <div className="images">
-            <img className="horizontal-image" alt="" src={horizontal} />
-            <img className="vertical" alt="" src={vertical} />
+            <img className="horizontal-image-2" alt="" src={surg} />
+            
           </div>
 
           <div className="benefits-text">
@@ -57,7 +57,7 @@ const Benefits = () => {
             </h5>
           </div>
           <div className="images">
-            <img className="horizontal-image-2" alt="" src={patient} />
+            <img className="horizontal-image-2" alt="" src={hosp} />
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Benefits = () => {
           <span className="stake"> Hospital Management</span>
         </h3>
         <div className="image-row-3">
-            <img className="horizontal-image-3" alt="" src={hospital} />
+            <img className="horizontal-image-3" alt="" src={pati} />
           
 
           <div className="benefits-text">
